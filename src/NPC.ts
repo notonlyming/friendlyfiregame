@@ -63,7 +63,7 @@ export abstract class NPC extends PhysicsEntity {
     }
 
     public getInteractionText(): string {
-        return "Talk";
+        return "对话";
     }
 
     protected showDialoguePrompt(): boolean {

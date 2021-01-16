@@ -121,7 +121,7 @@ export class QuestA extends Quest {
         super(
             QuestKey.A,
             campaign,
-            "[A]POCALYPSE NOT NOW",
+            "[结局A] 世界末日不是现在",
             Object.values(QuestATrigger).filter((i): i is number => typeof i === "number")
         );
     }
@@ -135,7 +135,7 @@ export class QuestB extends Quest {
         super(
             QuestKey.B,
             campaign,
-            "GOOD [B]OY",
+            "[结局B] 好孩子",
             Object.values(QuestBTrigger).filter((i): i is number => typeof i === "number")
         );
     }
@@ -149,7 +149,7 @@ export class QuestC extends Quest {
         super(
             QuestKey.C,
             campaign,
-            "SOFT LO[C]KED",
+            "[结局C] 软禁",
             Object.values(QuestCTrigger).filter((i): i is number => typeof i === "number")
         );
     }
@@ -164,7 +164,7 @@ export class QuestD extends Quest {
         super(
             QuestKey.D,
             campaign,
-            "[D]ROWNED IN ECSTASY",
+            "[结局D] 沉浸在狂喜中",
             Object.values(QuestDTrigger).filter((i): i is number => typeof i === "number")
         );
     }
@@ -178,7 +178,7 @@ export class QuestE extends Quest {
         super(
             QuestKey.E,
             campaign,
-            "AWAK[E]",
+            "[结局E] 醒来",
             Object.values(QuestETrigger).filter((i): i is number => typeof i === "number")
         );
     }

@@ -1,96 +1,96 @@
 {
     "entry": [
-        "[not visited]Greetings, adventurer. Welcome to this ancient and mysterious land. !set $talkedToSpider true",
-        "[not visited]I am your designated magical gender fairy and will guide you on your quest. I bet you have a lot of questions. !set visited",
-        "[visited]How can I help?",
-        "►[not option_nicetomeet]It's nice to meet you. @nicetomeet",
-        "►What's going on here? @whatsgoingon",
-        "►[not toggledgender]What is a gender fairy? @magic",
-        "►[toggledgender]Can you “accidentally” change my gender again? @swapgender",
-        "►Seriously? Magical FAIRY? @spider",
-        "►[not visited]I got no time for this… @nerve",
-        "►[visited]Gonna go…",
-        "Byeeee! @entry !end"
+        "[not visited]你好，冒险家。欢迎来到这片古老而神秘的土地！ !set $talkedToSpider true",
+        "[not visited]我是你指定的魔法性别仙女，将引导你的追求。我打赌你有很多问题。 !set visited",
+        "[visited]我能帮忙吗？",
+        "►[not option_nicetomeet]很高兴见到你。 @nicetomeet",
+        "►这是怎么回事？ @whatsgoingon",
+        "►[not toggledgender]什么是性别仙女？ @magic",
+        "►[toggledgender]你能“不小心”再次改变我的性别吗？ @swapgender",
+        "►说真的？神奇的仙女？ @spider",
+        "►[not visited]我没时间了... @nerve",
+        "►[visited]我要走了...",
+        "再见！ @entry !end"
     ],
     "nerve": [
-        "The nerve! @rejected !end"
+        "胆量！ @rejected !end"
     ],
     "rejected": [
-        "Look who comes crawling back…",
-        "►Sorry, I actually do need some guidance. @entry",
-        "►I just pressed the wrong button!",
-        "Jerk! @rejected !end"
+        "看谁爬回来了...",
+        "►对不起，我确实需要一些指导。 @entry",
+        "►我刚才按错按钮了！",
+        "混蛋！ @rejected !end"
     ],
     "nicetomeet": [
-        "[not $ismale]Ho ho ho, what a sweet gal you are. The last one wasn't of the talkative kind. !set option_nicetomeet",
-        "[$ismale]Ho ho ho, what a friendly fella you are. The last one wasn't of the talkative kind. !set option_nicetomeet",
-        "He had the WORST time!",
-        "But you and I will get along just fine.",
-        "►What happened to the last one? @chosenone",
-        "►Yeah sure, back to topic.",
-        "Suuuure… @entry"
+        "[not $ismale]呵呵，你真是个可爱的姑娘。最后一个不是健谈的那种。 !set option_nicetomeet",
+        "[$ismale]呵呵，你真是个友好的家伙。最后一个不是健谈的那种。 !set option_nicetomeet",
+        "他度过了最糟糕的时光！",
+        "但是你和我会相处得很好的。",
+        "►最后一个怎么了？ @chosenone",
+        "►好的，回到话题上来。",
+        "当...当然 @entry"
     ],
     "chosenone": [
-        "It wasn't a pretty sight. Lots of misunderstandings, some disrespectful verbal exchanges.",
-        "Long story short, you won't see him anytime soon. Trust me.",
-        "Some would say, he “burned” to “death”.",
-        "…",
-        "Subtlety is not my strong suit.",
-        "►I can see that. Back to topic!",
-        "Aye! @entry"
+        "那不是一个美丽的景象。很多误解，一些不敬的言语交流。",
+        "长话短说，你很快就见不到他了。相信我。",
+        "有人会说，他“烧死”了。",
+        "...",
+        "微妙不是我的强项。",
+        "►我看得出来。回到主题！",
+        "是的！ @entry"
     ],
     "whatsgoingon": [
-        "[not talkedAboutQuest]Nothing really. Just make yourself at home. You're part of our world now.",
-        "►[not talkedAboutQuest]Really? There's nothing to do?",
-        "[not talkedAboutQuest]You can always approach the other habitants and have interesting chats with them.",
-        "[not talkedAboutQuest]The one downstairs might even need some help.",
-        "[talkedAboutQuest]Like I said, we just live our lives in peace here. There isn't really much to do.",
-        "[talkedAboutQuest]You can go and meet the other habitants. You can start downstairs.",
-        "►Sure, I'll give it a try.",
-        "Great! !set talkedAboutQuest true @entry."
+        "[not talkedAboutQuest]没什么。别拘束。你现在是我们世界的一部分了。",
+        "►[not talkedAboutQuest]真正地？没什么可做的？",
+        "[not talkedAboutQuest]你可以随时接近其他居民，与他们进行有趣的交谈。",
+        "[not talkedAboutQuest]楼下的那个可能需要帮助。",
+        "[talkedAboutQuest]就像我说的，我们在这里过着平静的生活。其实没什么好做的。",
+        "[talkedAboutQuest]你可以去见其他居民。你可以从楼下开始。",
+        "►当然，我试试看。",
+        "好的！ !set talkedAboutQuest true @entry."
     ],
     "spider": [
-        "[not isracist]What, don't you see the fairy wings on my back? My golden hair and cute make up?",
-        "[not isracist]I worked really hard to earn all of these traits.",
-        "[isracist]…",
-        "►Can anyone become a fairy? @fairyschool",
-        "►[not isracist]Since when are spiders allowed to be fairies? @racist",
-        "►Nevermind. @entry"
+        "[not isracist]什么，你没看到我背上的仙女翅膀吗？我金色的头发和可爱的妆容？",
+        "[not isracist]我真的很努力地工作来获得所有这些特质。",
+        "[isracist]...",
+        "►有人能成为仙女吗？ @fairyschool",
+        "►[not isracist]蜘蛛从什么时候开始被允许成为仙女了？ @racist",
+        "►没事。 @entry"
     ],
     "fairyschool": [
-        "Are you kidding me?",
-        "Of course not. Only the best of the best can become fairies.",
-        "I went through six years of fairy university and another two years of unpaid internships as fairy assistant.",
-        "Can't wait until I get my new pink fairy dress. The one I got at graduation didn't fit.",
-        "►I cannot guess why… Back to topic. @entry"
+        "你在开玩笑吧？",
+        "当然不是。只有最优秀的人才会成为仙女。",
+        "我经历了六年的仙女大学和另外两年的无偿实习作为仙女助理。",
+        "我等不及要买我的新粉色仙女裙了。我毕业时买的那件不合适。",
+        "►我猜不出为什么...回到主题。 @entry"
     ],
     "racist": [
-        "I will ignore your racist remark in good faith… you racist! !set isracist !set askedaboutspider",
-        "►Sorry… @spider"
+        "我会真诚地无视你的种族主义言论...你这个种族主义者！ !set isracist !set askedaboutspider",
+        "►对不起的... @spider"
     ],
     "magic": [
-        "[not askedformoregenders]Great that you ask!",
-        "[not askedformoregenders]I'm not just a normal fairy, but one with an academic background.",
-        "[not askedformoregenders]With my bachelor degree in gender studies, I know everything about genders.",
-        "[not askedformoregenders]I can instantly tell that you've been born to be at least one of two genders!",
-        "[askedformoregenders] Like I said, you have a gender!",
-        "►[not askedformoregenders]Aren't there more? @moregenders",
-        "►Is that all…?",
-        "Ha! Not in the least. I have the power to accidentally change the gender of humans against their will.",
-        "Abracadabra and it is done!",
-        "►What… WAIT !set toggledgender !togglegender",
-        "You are very welcome, gender swapped human!",
-        "►It's not that bad, actually. @entry",
-        "►You even changed the clothes, nice. @entry"
+        "[not askedformoregenders]你问得太好了！",
+        "[not askedformoregenders]我不只是一个普通的仙女，而是一个有学术背景的人。",
+        "[not askedformoregenders]凭借我的性别研究学士学位，我对性别的一切都了如指掌。",
+        "[not askedformoregenders]我马上就能看出你生来至少是两种性别中的一种！",
+        "[askedformoregenders] 就像我说的，你有性别！",
+        "►[not askedformoregenders]不是还有吗？ @moregenders",
+        "►就这些吗...?",
+        "哈！一点也不。我有能力不经意间改变人类的性别。",
+        "阿布拉卡达布拉，一切都结束了！",
+        "►什...什么 !set toggledgender !togglegender",
+        "很欢迎你，性别互换的人类！",
+        "►其实没那么糟。 @entry",
+        "►你甚至换了衣服，不错。 @entry"
     ],
     "moregenders": [
-        "There's only so much you can do with this kind of pixel resolution…",
-        "Also, don't question my bachelor knowledge!",
-        "►Two genders is fine. !set askedformoregenders @magic"
+        "用这种像素分辨率你只能做这么多...",
+        "还有，不要质疑我的学士学位知识！",
+        "►两种性别就很好了。 !set askedformoregenders @magic"
     ],
     "swapgender": [
-        "Why? Don't you like your current gender?",
-        "Whoops, there we go again. !togglegender",
-        "►I feel sick. @entry"
+        "为什么？你不喜欢你现在的性别吗？",
+        "哎呀，又来了。 !togglegender",
+        "►我觉得不舒服。 @entry"
     ]
 }

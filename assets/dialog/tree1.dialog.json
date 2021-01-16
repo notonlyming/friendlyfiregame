@@ -1,121 +1,121 @@
 {
     "entry": [
-        "You are the dancing tree,\nOld and rough. !amused !talkedtotree",
-        "One hundred and seventeen,\ndancing tree. !amused",
-        "Feel the beat from the tree topsee, oh yeah! !amused",
-        "►Hello?",
-        "►Wait… what?",
-        "You can dance\nYou can grow. !amused",
-        "Having the root of your life. !amused",
-        "►Can you hear me?",
-        "►What is this?",
-        "►I know that song!",
-        "Ooh, see that birch\nWatch that tribe. !amused",
-        "Digging the dancing tree. !amused",
-        "►Are you done yet?",
-        "Rude! !angry",
-        "I'll talk to you after you prove you're worthy.",
-        "[$ismale]Show me your moves, boy!",
-        "[not $ismale]Show me your moves, girl!",
-        "Follow the beat! Get ready! @danced !end !dance 1"
+        "你是跳舞的树，\n又老又粗糙。 !amused !talkedtotree",
+        "一百一十七，\n跳舞的树。 !amused",
+        "感受树上的节奏，哦耶！ !amused",
+        "►你好？",
+        "►等待...什么？",
+        "你会跳舞\n你可以成长。 !amused",
+        "有你生命的根。 !amused",
+        "►你能听见我说话吗？",
+        "►这是什么？",
+        "►我知道那首歌！",
+        "哦，看到那个桦树了吗\n注意那个部落。 !amused",
+        "挖掘跳舞的树。 !amused",
+        "►你做完了吗？",
+        "粗鲁无礼！ !angry",
+        "等你证明你配得上我再跟你说。",
+        "[$ismale]给我看看你的动作，小子！",
+        "[not $ismale]给我看看你的动作，姑娘！",
+        "跟着节奏走！准备好！ @danced !end !dance 1"
     ],
     "danced": [
-        "Your little dance amuses me. You're keeping the beat alive! !amused",
-        "►Thanks for the compliment! @smile",
-        "►There is nothing like putting a smile on a tree's face. How are you? @smile ",
-        "►How dare you?! @dare"
+        "你的小舞蹈让我很开心。你在保持节奏！ !amused",
+        "►谢谢你的夸奖！ @smile",
+        "►没有什么比在树的脸上挂上微笑更棒的了。你好吗？ @smile ",
+        "►你怎么敢这样说我？！ @dare"
     ],
     "dare": [
-        "Oh you pesky human! Can't even take a compliment! @request !end"
+        "哦，你这个讨厌的人！连恭维都受不了！ @request !end"
     ],
     "nothelpful": [
-        "Oh you gnarly individual. I should have never trusted you in the first place… @request !end"
+        "哦，你这个讨厌的人。我本来就不该相信你的... @request !end"
     ],
     "smile": [
-        "You seem like a decent lad! Maybe you can help me out with something.",
-        "►Actually, I was about to ask you for something.",
-        "Huh? You came here just for me? How nice! @request"
+        "你看起来是个正派的小伙子！也许你能帮我个忙。",
+        "►实际上，我正要向你要点东西。",
+        "哈？你来这里就是找我的？多好啊！ @request"
     ],
     "request": [
-        "What is it that made you come all this way?",
-        "►I'd like to humbly ask you for a piece of your wood. @wood",
-        "►I'm gonna cut you down.",
-        "You… and what army?! !angry",
-        "►Haha, it's just a prank bro! @prank",
-        "►You're right, stupid idea. @request",
-        "►Maybe we can help each other out.",
-        "How? Why are you here?",
-        "►I need a piece of you. @wood"
+        "是什么让你一路来的？",
+        "►我想谦卑地向你要一块木头。 @wood",
+        "►我要砍了你。",
+        "你...什么军队？！ !angry",
+        "►哈哈，这只是个恶作剧！ @prank",
+        "►你说得对，蠢主意。 @request",
+        "►也许我们可以互相帮助。",
+        "怎样？你为什么在这里？",
+        "►我需要你的一部分。 @wood"
     ],
     "prank": [
-        "Go prank somebody else. I'm too old for this. @sure !end"
+        "去恶搞别人吧。我年纪太大了。 @sure !end"
     ],
     "wood": [
-        "Sure sure. I can spare some. If you help me, you shall have your wood.",
-        "►Awesome! @sure",
-        "►What can I do for you? @sure"
+        "当然，当然。我可以留一些。如果你帮助我，你将得到你的木材。",
+        "►令人惊叹的！ @sure",
+        "►有什么事吗？ @sure"
     ],
     "sure": [
-        "I'm an old tree. I don't have any children.",
-        "My pine cones never amount to anything…",
-        "I could really need your help. With procreation.",
-        "►I'd love that! @lovethat",
-        "►Isn't that a little… weird? @weird",
-        "►Oh no! What happens to your pine cones? @pinecones",
-        "►Nah I'm not really the helpful kind. @nothelpful"
+        "我是一棵老树。我没有孩子。",
+        "我的松果什么都没有...",
+        "我真的需要你的帮助。与生孩子有关。",
+        "►我很乐意！ @lovethat",
+        "►是不是有点...奇怪？ @weird",
+        "►哦，不！你的松果怎么了？ @pinecones",
+        "►不，我不是那种乐于助人的人。 @nothelpful"
     ],
     "pinecones": [
-        "Well that's a super long story.",
-        "But I'll gladly tell you, little one.",
-        "►Um, nevermind. @nevermind",
-        "►Cool! @cool"
+        "好吧，这是一个超长的故事。",
+        "但我很乐意告诉你，小家伙。",
+        "►呃，算了。 @nevermind",
+        "►酷！ @cool"
     ],
     "lovethat": [
-        "I figured it all out.",
-        "The only way I can get a son is if you plant one of my pine cones on the mountain in the west. !mountainzoom",
-        "Would you do that for me?",
-        "►Definitely! @definitely",
-        "►Ain't nobody got time for that! @notime"
+        "我都想明白了。",
+        "我唯一能得到儿子的办法就是你把我的松果种在西部的山上。 !mountainzoom",
+        "你能帮我吗？",
+        "►当然！ @definitely",
+        "►谁他妈有时间！ @notime"
     ],
     "weird": [
-        "Oh you judgemental humanoid! Show some empathy! @request !end"
+        "哦，你这个爱挑剔的人形！表现出一些同情心！ @request !end"
     ],
     "notime": [
-        "Oh you are not a very helpful life-form! @request !end"
+        "哦，你不是一个很有用的生命形式！ @request !end"
     ],
     "nevermind": [
-        "Oh you rude leafless imposter! Won't even listen to my sad, sad story. @request !end"
+        "哦，你这个没叶子的冒名顶替者！甚至不听我悲伤的故事。 @request !end"
     ],
     "definitely": [
-        "Awesome. @missinggear"
+        "太棒了。 @missinggear"
     ],
     "missinggear": [
-        "Oh, and I almost forgot!",
-        "You will need some special gear to be able to climb that mountain. I hereby grant my personal pair of double jump boots!",
-        "►Awesome, thanks! !doublejump",
-        "I'll drop the seed for you now. Good luck on your journey! !spawnseed @reminder !end"
+        "哦，我差点忘了！",
+        "你需要一些特殊的装备才能爬上那座山。我特此批准我的私人双跳靴！",
+        "►太棒了，谢谢 !doublejump",
+        "我现在就为你撒下种子。祝你旅途好运！ !spawnseed @reminder !end"
     ],
     "cool": [
-        "So the thing with pine cones, you see, is they need very special fertile ground to grow.",
-        "Have you looked down? The soil here is rubbish. Nothing can grow here. No nutrients!",
-        "Which, ironically, is why I'm too weak to throw my pine cones far enough onto better grounds.",
-        "A vicious circle of non-procreation!",
-        "So I need somebody to carry my pine cone to the best possible place in the area.",
-        "I just want my child to have it easier than me, you know?",
-        "►Definitely! @lovethat",
-        "►Ain't nobody got time for that! @notime"
+        "所以松果需要特殊的肥沃土壤才能生长。",
+        "你往下看了吗？这里的土壤是垃圾。这里什么也长不出来。没有营养！",
+        "具有讽刺意味的是，这就是为什么我太虚弱而不能把我的松果扔到更好的地方。",
+        "不生育的恶性循环！",
+        "所以我需要有人把我的松果带到这个地区最好的地方。",
+        "我只想让我的孩子过得比我容易，你知道吗？",
+        "►当然！ @lovethat",
+        "►谁他妈有时间！ @notime"
     ],
     "reminder": [
-        "You know, you wanted to help me procreate. Bring my cone to the highest place in this area.",
-        "►Got it! @reminder !end",
-        "►[not $seedplanted]Sorry, I lost your cone!",
-        "►[$seedplanted]I planted the seed. How about the reward? @reward",
-        "You did… what? Thank god I have an unlimited supply of them. @reminder !spawnseed !end"
+        "你知道，你想帮我生孩子。把我的松果带到这个地区最高的地方。",
+        "►知道了！ @reminder !end",
+        "►[not $seedplanted]对不起，我把你的松果弄丢了！",
+        "►[$seedplanted]我播下了种子。奖励呢？ @reward",
+        "你做到了...什么？感谢上帝，我有无限的供应。 @reminder !spawnseed !end"
     ],
     "reward": [
-        "You will get a reward when my offspring sprouts. That was the deal.",
-        "►But... that might take forever!",
-        "Ho ho, maybe you can go the extra mile and make the little cone grow faster?",
-        "►I'll try... There might be some trick to it. !end @reminder"
+        "当我的后代发芽的时候，你会得到奖赏。这就是交易。",
+        "►但是...那可能要花很长时间！",
+        "哈哈，也许你可以多跑一英里，让小树苗长得更快？",
+        "►我会试着...可能有什么诀窍。 !end @reminder"
     ]
 }

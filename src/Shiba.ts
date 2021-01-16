@@ -152,8 +152,8 @@ export class Shiba extends ScriptableNPC {
                 Shiba.putOutSound.play();
             }, 2000);
 
-            setTimeout(() => this.scene.fire.think("Oh God…", 2000), 4500);
-            setTimeout(() => this.scene.fire.think("Disgusting…", 3000), 8000);
+            setTimeout(() => this.scene.fire.think("Oh God...", 2000), 4500);
+            setTimeout(() => this.scene.fire.think("Disgusting...", 3000), 8000);
         } else if (this.state === ShibaState.FIRE_KILLED) {
             this.peeing = false;
             this.scene.fire.state = FireState.PUT_OUT;

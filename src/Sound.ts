@@ -1,7 +1,7 @@
 import { clamp } from "./util";
 import { ControllerManager } from "./input/ControllerManager";
 
-// Get cross-browser AudioContext (Safari still uses webkitAudioContext…)
+// Get cross-browser AudioContext (Safari still uses webkitAudioContext...)
 const AudioContext = window.AudioContext ?? (window as any).webkitAudioContext as AudioContext;
 
 let audioContext: AudioContext | null = null;

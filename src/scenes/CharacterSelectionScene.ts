@@ -146,7 +146,7 @@ export class CharacterSelectionScene extends Scene<FriendlyFire> {
         }).appendChild(
             new TextNode({
                 font: CharacterSelectionScene.headlineFont,
-                text: "CHARACTER CUSTOMIZATION",
+                text: "角色定制",
                 anchor: Direction.BOTTOM_LEFT,
                 y: -5,
                 color: "white"
@@ -154,7 +154,7 @@ export class CharacterSelectionScene extends Scene<FriendlyFire> {
         ).appendChild(
             this.variant1 = new TextNode({
                 font: CharacterSelectionScene.font,
-                text: "Variant 1",
+                text: "变体 1",
                 anchor: Direction.TOP_LEFT,
                 x: charSelectionTextX,
                 y: charSelectionTextY,
@@ -163,7 +163,7 @@ export class CharacterSelectionScene extends Scene<FriendlyFire> {
         ).appendChild(
             this.variant2 = new TextNode({
                 font: CharacterSelectionScene.font,
-                text: "Variant 2",
+                text: "变体 2",
                 anchor: Direction.TOP_LEFT,
                 x: charSelectionTextX + charSelectionTextGap,
                 y: charSelectionTextY,
@@ -172,7 +172,7 @@ export class CharacterSelectionScene extends Scene<FriendlyFire> {
         ).appendChild(
             this.voice1 = new TextNode({
                 font: CharacterSelectionScene.font,
-                text: "High Pitch",
+                text: "女声",
                 anchor: Direction.TOP_LEFT,
                 x: voiceSelectionTextX,
                 y: voiceSelectionTextY,
@@ -181,7 +181,7 @@ export class CharacterSelectionScene extends Scene<FriendlyFire> {
         ).appendChild(
             this.voice2 = new TextNode({
                 font: CharacterSelectionScene.font,
-                text: "Low Pitch",
+                text: "男声",
                 anchor: Direction.TOP_LEFT,
                 x: voiceSelectionTextX + voiceSelectionTextGap,
                 y: voiceSelectionTextY,
@@ -198,14 +198,14 @@ export class CharacterSelectionScene extends Scene<FriendlyFire> {
         ).appendChild(
             new ControlTooltipNode({
                 control: ControllerAnimationTags.CONFIRM,
-                label: "Select or Change",
+                label: "选中或改变",
                 anchor: Direction.TOP_LEFT,
                 y: CharacterSelectionScene.panelImage.height + 2
             })
         ).appendChild(
             new ControlTooltipNode({
                 control: ControllerAnimationTags.BACK,
-                label: "Back",
+                label: "返回",
                 anchor: Direction.TOP_LEFT,
                 y: CharacterSelectionScene.panelImage.height + 18
             })
@@ -213,15 +213,15 @@ export class CharacterSelectionScene extends Scene<FriendlyFire> {
 
         this.menu = new MenuList().setItems(
             new MenuItem(
-                MenuItemKey.CHARACTER, "Character:", CharacterSelectionScene.font, "black",
+                MenuItemKey.CHARACTER, "角色：", CharacterSelectionScene.font, "black",
                 menuItemX, characterMenuItemY
             ),
             new MenuItem(
-                MenuItemKey.VOICE, "Voice:", CharacterSelectionScene.font, "black",
+                MenuItemKey.VOICE, "声音：", CharacterSelectionScene.font, "black",
                 menuItemX, voiceMenuItemY
             ),
             new MenuItem(
-                MenuItemKey.START, "Start Game", CharacterSelectionScene.font, "black",
+                MenuItemKey.START, "开始游戏", CharacterSelectionScene.font, "black",
                 menuItemX, startMenuItemY
             )
         ).appendTo(panel);

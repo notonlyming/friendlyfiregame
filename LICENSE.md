@@ -9,6 +9,6 @@ re-package the game either in it's original or a modified form.
 Commercial use of the contents of this repository without permission
 of the authors is also prohibited.
 
-## Well,… ok,… but
+## Well,... ok,... but
 
 Yeah. Just be nice.

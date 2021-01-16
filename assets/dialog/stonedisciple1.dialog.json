@@ -1,79 +1,79 @@
 {
     "entry": [
-        "Hello! !set $talkedToStoneDisciple true",
-        "I'm a stone monk and student of the wise stone atop the mountain peak.",
-        "Are you here to climb the mountain?",
-        "►Yes. @yes",
-        "►Is there any other way to get up there? @no"
+        "你好！ !set $talkedToStoneDisciple true",
+        "我是一位石僧，也是山顶智慧石的学生。",
+        "你是来爬山的吗？",
+        "►是的。 @yes",
+        "►有没有别的办法上去？ @no"
     ],
     "no": [
-        "No.",
-        "[$ismale]Maybe flying, but you don't look like a bird man or man bird.",
-        "[not $ismale]Maybe flying, but you don't look like a bird woman or woman bird.",
-        "►Damn… then yes. @yes"
+        "没。",
+        "[$ismale]也许会飞，但你看起来不像鸟人或人鸟。",
+        "[not $ismale]也许会飞，但你看起来不像鸟女或鸟女。",
+        "►cao... 那好吧。 @yes"
     ],
     "yes": [
-        "Good.",
-        "In order to get up, just jump up the platforms here…",
-        "It's easy. Just jump and that's it.",
-        "…pfftttt. !amused",
-        "Nothing special to consider.",
-        "…hehe! !amused",
-        "►Why the suspicious act? @suspicious",
-        "►I'm on my way then. @onmyway"
+        "很好。",
+        "为了上去，就从这里的平台跳上去...",
+        "这很简单。跳就行了。",
+        "...嘻嘻嘻嘻嘻。 !amused",
+        "没有什么特别要考虑的。",
+        "...呵呵呵呵呵！ !amused",
+        "►为什么行为这么可疑？ @suspicious",
+        "►那我就上路了。 @onmyway"
     ],
     "suspicious": [
-        "That's part of the fun!",
-        "►OK… I'm on my way then. @onmyway"
+        "这是乐趣的一部分！",
+        "►好啊...我马上就上路了 @onmyway"
     ],
     "onmyway": [
-        "Pffttttt… !amused",
-        "Good luck!@visited !end"
+        "嘻嘻嘻嘻嘻... !amused",
+        "好运！@visited !end"
     ],
     "visited": [
-        "[not $gotTeleported]Go on, I'll wait here. !end",
-        "[$gotTeleported]Welcome back… @introduction !set $talkedToStoneDiscipleAgain true"
+        "[not $gotTeleported]去吧，我在这儿等你。 !end",
+        "[$gotTeleported]欢迎回来... @introduction !set $talkedToStoneDiscipleAgain true"
     ],
     "introduction": [
-        "How far did you get? Pftttt… hihi! !amused",
-        "►Not so far according to your reaction.",
-        "Yes, very true.",
-        "Just say a word if you need help.",
-        "►I'm in a hurry, give me something to work with. @explaination",
-        "►Riddles are my strong suit. I'll do it myself!",
-        "Respectable. Good luck then! @onmyown !end"
+        "你走了多远？嘻嘻嘻...你好！ !amused",
+        "►从你的反应来看，没有多远。",
+        "是的，非常正确。",
+        "如果你需要帮助，就说一句话。",
+        "►我有急事，给我点事做。 @explaination",
+        "►谜语是我的强项。我自己来做！",
+        "可敬的。祝你好运！ @onmyown !end"
     ],
     "onmyown": [
-        "How goes the riddling?",
-        "►Progress is imminent! I can do this. @onmyown !end",
-        "►I could use some help after all.",
-        "I thought so! @explaination"
+        "骑马怎么样？",
+        "►进步在即！我能做到。 @onmyown !end",
+        "►毕竟我需要一些帮助。",
+        "我想是的！ @explaination"
     ],
     "explaination": [
-        "This is a magical climbing chamber with unlimited height. !set $mountainRiddleExplained true",
-        "We adopted the concept from a fire spitting turtle.",
-        "He used it to keep some plumbers out. You can't make this stuff up.",
-        "►I really don't care, how can I overcome the trial? @solution"
+        "这是一个高度无限的神奇攀岩室。 !set $mountainRiddleExplained true",
+        "我们采用了吐火龟的概念。",
+        "它用它把一些水管工拒之门外。你不能破环这些东西。",
+        "►我真的不在乎，我怎样才能战胜考验？ @solution"
     ],
     "solution": [
-        "You might already have guessed that the distinct gates are the key.",
-        "Just go through them in the right order and that's it.",
-        "►And you're gonna tell me the order?",
-        "No.",
-        "Wouldn't be much of a trial I spoiled the solution here and now.",
-        "►…",
-        "Don't worry. I have a cryptic tip for you!",
-        "Listen closely:",
-        "The solution is represented outside on the wall to the right…",
-        "►That is very specific and not cryptic at all.",
-        "…whoops.",
-        "I got the wrong tip sheet here.",
-        "Well, good luck nontheless.",
-        "►I'll try my best. @end !end"
+        "你可能已经猜到了不同的门是关键。",
+        "只要按正确的顺序穿一遍就行了。",
+        "►你要告诉我顺序？",
+        "不。",
+        "如果我现在就在这里告诉你就不会是一个很大的考验了。",
+        "►...",
+        "别担心。我给你一个神秘的提示！",
+        "仔细听：",
+        "答案就显示在外面右侧的墙上...",
+        "►这是非常具体的，一点也不神秘。",
+        "...哎呀。",
+        "我拿错了小费单。",
+        "好吧，祝你好运。",
+        "►我会尽力的。 @end !end"
     ],
     "end": [
-        "Still not finished?",
-        "Remember the tip: The solution is represented outside on the wall to the right.",
-        "►Yeah, thanks. @end !end"
+        "还没完成？",
+        "记住提示：答案就显示在外面右侧的墙上。",
+        "►是的，谢谢。 @end !end"
     ]
 }

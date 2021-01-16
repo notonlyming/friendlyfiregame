@@ -50,17 +50,17 @@ const bounceColors = [
 ];
 
 const drownThoughts = [
-    { message: "OK, I'm not Jesus. Noted!", duration: 4000 },
-    { message: "Looks like I can't swim… But I can respawn, nice!", duration: 5000 },
-    { message: "Well, that was strange… And wet.", duration: 4000 }
+    { message: "好吧，我不是耶稣。 注意！", duration: 4000 },
+    { message: "看起来我不会游泳...但是我可以重生，很棒！", duration: 5000 },
+    { message: "好吧，那很奇怪......而且湿了。", duration: 4000 }
 ];
 
 const drowningThoughts = [
-    { message: "Waah!", duration: 1000 },
-    { message: "Help!", duration: 1000 },
-    { message: "Mama!", duration: 1000 },
-    { message: "Ieeh!", duration: 1000 },
-    { message: "Argh!", duration: 1000 }
+    { message: "哇！", duration: 1000 },
+    { message: "救命！", duration: 1000 },
+    { message: "妈妈！", duration: 1000 },
+    { message: "唉！", duration: 1000 },
+    { message: "啊！", duration: 1000 }
 ];
 
 export enum Gender {
@@ -750,7 +750,7 @@ export class Player extends PhysicsEntity {
         const sprite = Player.playerSprites[this.characterAsset];
         let animation = this.animation;
 
-        // TODO: Implement animation state concept instead of `animation === "idle" || animation === "walk" || …`
+        // TODO: Implement animation state concept instead of `animation === "idle" || animation === "walk" || ...`
         if (
             this.carrying
             && (animation === "idle" || animation === "walk" || animation === "jump" || animation === "fall")
@@ -778,15 +778,15 @@ export class Player extends PhysicsEntity {
         ) {
             this.drawTooltip(this.closestNPC.getInteractionText(), ControllerAnimationTags.INTERACT);
         } else if (this.readableTrigger) {
-            this.drawTooltip("Examine", ControllerAnimationTags.INTERACT);
+            this.drawTooltip("解释", ControllerAnimationTags.INTERACT);
         } else if (this.canEnterDoor()) {
-            this.drawTooltip("Enter", ControllerAnimationTags.OPEN_DOOR);
+            this.drawTooltip("进入", ControllerAnimationTags.OPEN_DOOR);
         } else if (this.canThrowStoneIntoWater()) {
-            this.drawTooltip("Throw stone", ControllerAnimationTags.ACTION);
+            this.drawTooltip("扔石头", ControllerAnimationTags.ACTION);
         } else if (this.canThrowSeedIntoSoil()) {
-            this.drawTooltip("Plant seed", ControllerAnimationTags.ACTION);
+            this.drawTooltip("种下种子", ControllerAnimationTags.ACTION);
         } else if (this.canDanceToMakeRain()) {
-            this.drawTooltip("Dance", ControllerAnimationTags.INTERACT);
+            this.drawTooltip("跳舞", ControllerAnimationTags.INTERACT);
         }
 
         if (this.dance) {
@@ -1162,7 +1162,7 @@ export class Player extends PhysicsEntity {
             if (done) {
                 // On cloud -> make it rain
                 if (this.dance.wasSuccessful()) {
-                    // (Useless because wrong cloud but hey…)
+                    // (Useless because wrong cloud but hey...)
                     const ground = this.getGround();
 
                     if (ground && ground instanceof Cloud) {
@@ -1462,43 +1462,43 @@ export class Player extends PhysicsEntity {
         if (this.playerConversation === null) {
             switch (this.scene.game.campaign.getQuest(QuestKey.A).getHighestTriggerIndex()) {
                 case QuestATrigger.JUST_ARRIVED:
-                    this.think("I should talk to someone.", 3000);
+                    this.think("我应该和某人对下话。", 3000);
                     break;
                 case QuestATrigger.TALKED_TO_FIRE:
-                    this.think("I think the fire needs my help.", 3000);
+                    this.think("我感觉那个火苗需要我的帮助。", 3000);
                     break;
                 case QuestATrigger.GOT_QUEST_FROM_FIRE:
-                    this.think("The fire told me to visit the tree in the east.", 3000);
+                    this.think("小火苗和我说要去找东边的那棵树。", 3000);
                     break;
                 case QuestATrigger.TALKED_TO_TREE:
-                    this.think("Maybe I should talk to the tree again.", 3000);
+                    this.think("也许我要再去和那棵树对话。", 3000);
                     break;
                 case QuestATrigger.GOT_QUEST_FROM_TREE:
-                    this.think("I need to pick up the seed by the tree.", 3000);
+                    this.think("我需要捡起那棵树的种子。", 3000);
                     break;
                 case QuestATrigger.GOT_SEED:
-                    this.think("I should check the mountains for a good place for the seed.", 3000);
+                    this.think("我得在山上找一个好地方播种。", 3000);
                     break;
                 case QuestATrigger.PLANTED_SEED:
-                    this.think("The seed needs something to grow, I think.", 3000);
+                    this.think("种子可能需要一些东西才能成长，我想。", 3000);
                     break;
                 case QuestATrigger.TALKED_TO_STONE:
-                    this.think("I should talk to that crazy stone again.", 3000);
+                    this.think("我应该再跟那块疯狂的石头说话。", 3000);
                     break;
                 case QuestATrigger.GOT_STONE:
-                    this.think("My arms get heavy. I really should throw that thing in the river.", 3000);
+                    this.think("我的手臂感到很沉重。我真的应该把那东西扔到河里。", 3000);
                     break;
                 case QuestATrigger.THROWN_STONE_INTO_WATER:
-                    this.think("There must be something interesting west of the river.", 3000);
+                    this.think("河西一定有一些有趣的东西。", 3000);
                     break;
                 case QuestATrigger.GOT_MULTIJUMP:
-                    this.think("I should check the clouds. The seed still needs something to grow.", 3000);
+                    this.think("我应该去云层看看。种子仍然需要我的帮助。", 3000);
                     break;
                 case QuestATrigger.MADE_RAIN:
-                    this.think("I should talk to that singing tree again.", 3000);
+                    this.think("我应该再和那棵唱歌的树说话。", 3000);
                     break;
                 case QuestATrigger.GOT_WOOD:
-                    this.think("Quick! The fire needs wood!", 3000);
+                    this.think("快！火需要木头！", 3000);
                     break;
             }
         }

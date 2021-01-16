@@ -32,10 +32,10 @@ enum MenuItemKey {
 }
 
 const MenuLabels: Record<MenuItemKey, MainMenuParams> = {
-    [MenuItemKey.START]: { label: "Start Game" },
-    [MenuItemKey.CONTROLS]: { label: "Controls and Options" },
-    [MenuItemKey.CREDITS]: { label: "Credits" },
-    [MenuItemKey.EXIT]: { label: "Exit Game", electronOnly: true },
+    [MenuItemKey.START]: { label: "开始游戏" },
+    [MenuItemKey.CONTROLS]: { label: "操纵和选项" },
+    [MenuItemKey.CREDITS]: { label: "制作人员名单" },
+    [MenuItemKey.EXIT]: { label: "退出游戏", electronOnly: true },
 };
 
 export class TitleScene extends Scene<FriendlyFire> {

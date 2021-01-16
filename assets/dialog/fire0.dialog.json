@@ -1,97 +1,97 @@
 
 {
     "entry": [
-        "Hey, person! !talkedtofire",
-        "►[$devmode]Hey!",
-        "►[$devmode]I'm a dev, show me variables example! @variableExample",
-        "I am starving, I fear to die very soon and my light will go out forever. @help !sad"
+        "嘿，伙计！ !talkedtofire",
+        "►[$devmode]嘿！",
+        "►[$devmode]我是一个开发人员，给我举个例子！ @variableExample",
+        "我饿死了，我害怕很快死去，我的光将永远熄灭。 @help !sad"
     ],
     "variableExample": [
-        "This example demonstrates variables. !set exampleSeen",
-        "[exampleSeen]It's pretty cool!",
-        "It is not perfect yet and a little buggy, some things don't work yet… sorry",
-        "[exampleSeen]This line is conditional, and you should see it. !set fail",
-        "[not fail]This line unfortunately is visible due to a bug, where conditions are evaluated one line too early.",
-        "Variables sometimes only take effect after another sentence has been spoken. A little weird. Hopefully fixed in future.",
-        "Variables also work with player options.",
-        "►Say “hello” !set hello 1",
-        "►Say “howdy” !set hello 0",
-        "…",
-        "[hello=1]Hello!",
-        "[hello!=1]Howdy!",
-        "What was the other word again?",
-        "►[hello=1]Howdy!",
-        "►[not hello=1]Hello!",
-        "►I don't know… !set idk",
-        "…",
-        "[idk]You're a little forgetful…",
-        "[not idk]Ah, right!",
-        "Also, now setting a global variable which could be accessed from other dialogs. !set $test 42",
-        "Which can be accessed using a dollar sign.",
-        "[$test]Isn't that cool?",
-        "►Yes!",
-        "Bye! @entry !end"
+        "这个例子演示了变量。 !set exampleSeen",
+        "[exampleSeen]太酷了！",
+        "它还不是完美的还有一些BIG，有些事情还没有工作...抱歉",
+        "[exampleSeen]这行是有条件的，您应该看到它。 !set fail",
+        "[not fail]不幸的是，由于一个bug，这行代码是可见的，在这个bug中，条件的计算太早了一行。",
+        "变量有时只有在另一句话说完后才生效。有点奇怪。希望将来能修好。",
+        "变量也适用于播放器选项。",
+        "►说“你好” !set hello 1",
+        "►说“哈罗” !set hello 0",
+        "...",
+        "[hello=1]你好！",
+        "[hello!=1]哈罗！",
+        "另一个词是什么？",
+        "►[hello=1]哈罗！",
+        "►[not hello=1]你好！",
+        "►我不知道... !set idk",
+        "...",
+        "[idk]你有点健忘...",
+        "[not idk]啊，对！",
+        "另外，现在设置一个可以从其他对话框访问的全局变量。 !set $test 42",
+        "可以使用美元符号访问。",
+        "[$test]很酷吧？",
+        "►是的！",
+        "再见！ @entry !end"
     ],
     "help": [
-        "Would you help me out, kind stranger?",
-        "►Oh my God, a talking fire?! @impressed",
-        "►Why should I help you? @why",
-        "►How can I help you? @how",
-        "►I don't care! !angry",
-        "Oh you son of a…! No, sorry, I get it. Well, maybe another time. !neutral",
-        "Just be aware this whole game is pretty pointless if you don't help me out… @help !end"
+        "你能帮帮我吗，善良的陌生人？",
+        "►天哪，会说话的火？！ @impressed",
+        "►我为什么要帮你？ @why",
+        "►我能帮你什么？ @how",
+        "►我不在乎！ !angry",
+        "哦，你这狗娘养的...！不，对不起，我明白了。好吧，也许下次吧。 !neutral",
+        "要知道如果你不帮我的话，整个游戏是毫无意义的... @help !end"
     ],
     "impressed": [
-        "Well yes, I'm impressed too. Took me some time to get used to it. @help !amused"
+        "是的，我也印象深刻。我花了一些时间才习惯。 @help !amused"
     ],
     "how": [
-        "[not $ismale]I really need some wood. Surely a strong and marvelous woman like you can help an old fire out.",
-        "[$ismale]I really need some wood. Surely a strong and marvelous man like you can help an old fire out.",
-        "►Sounds boring. Maybe later… @bye",
-        "►I'm in. @details",
-        "►What do we say to the god of fire?",
-        "I don't know, what?",
-        "►Not today!",
-        "But if you don't help me out, there may not be a tomorrow. @why"
+        "[not $ismale]我真的需要一些木头。像你这样一个坚强而了不起的女人，一定能救出一场旧火。",
+        "[$ismale]我真的需要一些木头。像你这样一个强壮而了不起的男人，一定能救火。",
+        "►听起来很无聊。也许以后... @bye",
+        "►我加入了。 @details",
+        "►我们该对火神说些什么？",
+        "我不知道，什么？",
+        "►今天不行！",
+        "但如果你不帮我，可能就没有明天了。 @why"
     ],
     "why": [
-        "Because I am the essence of life. If I die, everything dies. Do you want everything to die?",
-        "►Oh, I wouldn't want to be responsible for that! @details",
-        "►I don't know, do I?",
-        "►Yes!",
-        "No!",
-        "►OK",
-        "So you'll help me then?",
-        "►Definitely! @details",
-        "►Do I even have a choice?",
-        "Technically yes. Practically deciding against it would be a little stupid though.",
-        "►Well OK then, you convinced me. @details",
-        "►Why? @existence"
+        "因为我是生命的精华。如果我死了，一切都会死。你想让一切都死去吗？",
+        "►哦，我不想为此负责！ @details",
+        "►我不知道，是吗？",
+        "►是的！",
+        "不！",
+        "►好的",
+        "那你会帮我吗？",
+        "►当然！ @details",
+        "►我还有选择吗？",
+        "严格来说是的。实际上决定不这样做有点愚蠢。",
+        "►好吧，那么，你说服了我。 @details",
+        "►为什么？ @existence"
     ],
     "existence": [
-        "Because your sole existence in this world hinges on helping to keep me alive.",
-        "That's why you're here. There's nothing else for you to do anyway.",
-        "►Cool! I'll help you. @details",
-        "►I'd rather think about this in private. @bye"
+        "因为你在这个世界上的唯一存在取决于帮助我活着。",
+        "所以你才在这里。反正你也没别的事可做。",
+        "►酷！我会帮你的。 @details",
+        "►我宁愿私下考虑这个问题。 @bye"
     ],
     "bye": [
-        "Sure, take your time. You'll come back eventually! @help !end"
+        "当然，慢慢来。你终究会回来的！ @help !end"
     ],
     "details": [
-        "Great! I knew I could rely on you. I know a good person when I see one!",
-        "►So what exactly should I do?",
-        "It's easy! I just need a little firewood so I can keep burning a little longer.",
-        "►I can get you some wood!",
-        "Yes, yes! But it needs to be a special kind of wood.",
-        "There's a good tree in the east. His wood is good. !treezoom",
-        "Go get it! !gotFireQuest",
-        "►Sure thing! @reminder !end"
+        "太好了！我知道我可以依靠你。我看到一个好人就知道了！",
+        "►那我到底该怎么办？",
+        "很简单！我只需要一点木柴，这样我就可以再烧一会儿。",
+        "►我可以给你拿些木头！",
+        "是的，是的！但它必须是一种特殊的木材。",
+        "东方有棵好树。他的木材很好。 !treezoom",
+        "快去拿！ !gotFireQuest",
+        "►当然！ @reminder !end"
     ],
     "reminder": [
-        "Hello again!",
-        "►What do I need to do?",
-        "►Bye! @reminder !end",
-        "Go east. Ask tree for wood. Bring me wood. Soon!",
-        "►On my way! @reminder !end"
+        "又来了！",
+        "►我需要做什么？",
+        "►再见！ @reminder !end",
+        "向东走。向树要木头。给我木头。快！",
+        "►已经上路了！ @reminder !end"
     ]
 }

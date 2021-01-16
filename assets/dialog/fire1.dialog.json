@@ -1,23 +1,23 @@
 
 {
     "entry": [
-        "Oh, you did it! That's the real deal. !amused !talkedToFireWithWood",
-        "Good job on scalping that piece of junk.",
-        "Just take the wood and throw it into my fire, just as we agreed.",
-        "►Got it.",
-        "►I have second thoughts… @secondthoughts",
-        "Just do it! @holdup !end"
+        "哦，你做到了！这才是真正的交易。 !amused !talkedToFireWithWood",
+        "把那块垃圾剥皮干得好。",
+        "照我们说好的，把木头扔进我的火里。",
+        "►知道了。",
+        "►我有第二个想法... @secondthoughts",
+        "想做就做！ @holdup !end"
     ],
     "holdup": [
-        "What's the holdup? !angry",
-        "Just take the wood and throw it into me! Seriously…",
-        "►Got it. @holdup !end"
+        "怎么了？ !angry",
+        "把木头扔到我身上！说真的...",
+        "►知道了。 @holdup !end"
     ],
     "secondthoughts": [
-        "You can't be serious. Are you numb? !angry",
-        "Take the WOOD and THROW it into ME, you understand? !angry",
-        "Don't make me wait!",
-        "►Wow, calm down.",
-        "You calm down! Just give me the wood already! !angry @holdup !end"
+        "你不可能是认真的。你麻木了吗？ !angry",
+        "把 “木头” “扔” 到 “我身上”，明白吗？ !angry",
+        "别让我等！",
+        "►哇，冷静点。",
+        "你冷静点！快把木头给我！ !angry @holdup !end"
     ]
 }

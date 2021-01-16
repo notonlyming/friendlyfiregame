@@ -1,27 +1,27 @@
 {
     "entry": [
-        "Human! Thank you for coming.",
-        "Your selflessness brought an estranged family back together.",
-        "This is something no amount of meditating could achieve.",
-        "►Don't mention it!",
-        "Please don't play this down.",
-        "My brother and I came to the agreement that you should collect me.",
-        "My unknown power might help you on your quest.",
-        "►I don't know if I can accept that… @accept",
-        "►Great idea! @idea"
+        "人类！谢谢你来。",
+        "人类！谢谢你来。",
+        "这是任何冥想都无法达到的。",
+        "►不用谢！",
+        "请不要轻描淡写。",
+        "我弟弟和我达成协议，你应该来接我。",
+        "我未知的力量也许能帮你完成任务。",
+        "►我不知道我能不能接受... @accept",
+        "►好主意！ @idea"
     ],
     "accept": [
-        "We don't accept a “no” for an answer. @fate"
+        "我们不接受“不”的回答。 @fate"
     ],
     "idea": [
-        "Good to see that you agree. @fate"
+        "很高兴看到你同意。 @fate"
     ],
     "fate": [
-        "This is the inevitable fate of my existence.",
-        "And I couldn't be happier to be at your side.",
-        "►It's a deal then!",
-        "I hope my power is useful to you.",
-        "You should continue your quest now!",
-        "Farewell! !friendship !end @entry"
+        "这是我存在的必然命运。",
+        "在你身边我再高兴不过了。",
+        "►那就说定了！",
+        "我希望我的力量对你有用。",
+        "你现在应该继续你的任务！",
+        "再会！ !friendship !end @entry"
     ]
 }

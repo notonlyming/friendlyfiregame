@@ -1,32 +1,32 @@
 
 {
     "entry": [
-        "Omnmnommnomm, that was good!",
-        "Hahahahaha!",
-        "I am finally complete.",
-        "►What are you doing?",
-        "►Whyyy?",
-        "I'm unstoppable!",
-        "This was the last time I have to ask a filthy mortal for help!",
-        "And now I'm going to devour the world.",
-        "And I'll start with you!",
-        "►It is how it is…",
-        "►I thought we were friends!",
-        "►Not so fast!",
-        "►Stop right there!",
-        "What do you want to do, stop me? You got nothing on me! You're a human! I'm literally fire!",
-        "[not $hasFriendship]As a cherry on top of the fiery cake, I'm also gonna consume all of your power-ups. @noFriendship",
-        "As a cherry on top of the fiery cake, I'm also gonna consume all of your power-ups. @friendship"
+        "哦霍霍哈哈哈哈哈，太好了！",
+        "哈哈哈哈哈！",
+        "我终于完成了。",
+        "►你在做什么？",
+        "►为.为..为什么？",
+        "我势不可挡！",
+        "这是我最后一次向一个肮脏的凡人求助！",
+        "现在我要吞噬整个世界。",
+        "我从你开始！",
+        "►就是这样...",
+        "►我以为我们是朋友！",
+        "►别那么快！",
+        "►站住！",
+        "你想怎么做，阻止我？你在我身上什么都没有！你是人类！我是火！",
+        "[not $hasFriendship]作为火热蛋糕上的樱桃，我也要消耗你所有的能量。 @noFriendship",
+        "作为火热蛋糕上的樱桃，我也要消耗你所有的能量。 @friendship"
     ],
     "noFriendship": [
-        "All of the useful ones, that is. You can keep that annoying dancing Dave as eternal punishment!",
-        "HAHAHAHAHA! !crazyzoom !end"
+        "所有有用的，就是。你可以把那个讨厌的跳舞的戴夫当作永恒的惩罚！",
+        "哈哈哈哈哈哈哈! !crazyzoom !end"
     ],
     "friendship": [
-        "Wait…",
-        "Didn't you have a flying power-up before? Where did that go?",
-        "I was really looking forward to consume it. It tastes like chicken…",
-        "Oh well, doesn't matter.",
-        "HAHAHAHAHA! !friendshipEnding !end"
+        "等等...",
+        "你以前不是有飞行能力吗？那是怎么回事？",
+        "我真的很想吃掉它。它尝起来像鸡肉...",
+        "哦，没关系。",
+        "哈哈哈哈哈哈！ !friendshipEnding !end"
     ]
 }

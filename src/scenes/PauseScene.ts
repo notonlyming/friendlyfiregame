@@ -52,7 +52,7 @@ export class PauseScene extends Scene<FriendlyFire> {
 
         new TextNode({
             font: PauseScene.headlineFont,
-            text: "GAME PAUSED",
+            text: "游戏暂停",
             color: "white",
             anchor: Direction.TOP_LEFT,
             x: 75,
@@ -61,7 +61,7 @@ export class PauseScene extends Scene<FriendlyFire> {
 
         new TextNode({
             font: PauseScene.font,
-            text: isDev() ? "DEVELOPMENT VERSION" : PauseScene.appInfo.version,
+            text: isDev() ? "开发版本" : PauseScene.appInfo.version,
             color: "white",
             anchor: Direction.BOTTOM_RIGHT,
             x: this.game.width - 7,
@@ -70,9 +70,9 @@ export class PauseScene extends Scene<FriendlyFire> {
         }).appendTo(this.rootNode);
 
         this.menu = new MenuList().appendTo(this.rootNode).setItems(
-            new MenuItem(MenuItemKey.RESUME, "Resume", PauseScene.font, "white", 75, 130),
-            new MenuItem(MenuItemKey.CONTROLS, "Controls and Options", PauseScene.font, "white", 75, 145),
-            new MenuItem(MenuItemKey.EXIT, "Back to title", PauseScene.font, "white", 75, 160),
+            new MenuItem(MenuItemKey.RESUME, "恢复", PauseScene.font, "white", 75, 130),
+            new MenuItem(MenuItemKey.CONTROLS, "键位和选项", PauseScene.font, "white", 75, 145),
+            new MenuItem(MenuItemKey.EXIT, "返回标题", PauseScene.font, "white", 75, 160),
         );
     }
 

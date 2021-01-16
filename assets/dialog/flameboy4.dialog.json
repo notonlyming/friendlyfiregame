@@ -1,16 +1,16 @@
 {
     "entry": [
-        "Oh come on… ",
-        "I can't believe this… !angry",
-        "Don't bring that stupid grey guy to this side of river. !angry",
-        "How did you even get over here?",
-        "I can't help you like this. Go back und do it properly!",
-        "Does nobody here care for a proper order of events?",
-        "►Whoops, I'll be on my way.",
-        "Yes! @visited !end"
+        "哦，拜托...",
+        "真不敢相信... !angry",
+        "别把那个白痴带到河边。 !angry",
+        "你怎么到这儿来的？",
+        "我不能这样帮你。回去好好干！",
+        "这里没有人关心事件的顺序吗？",
+        "►哎呀，我马上就来。",
+        "好的！ @visited !end"
     ],
     "visited": [
-        "No! Don't talk to me while carrying that stupid stone!",
-        "►On my way!. @visited !end"
+        "不！拿着那块蠢石头就别跟我说话！",
+        "►在路上！ @visited !end"
     ]
 }

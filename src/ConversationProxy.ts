@@ -15,7 +15,7 @@ export class ConversationProxy extends NPC {
 
     private prepareContent(content?: string ): string[] {
         if (!content) {
-            return ["Nothing…"];
+            return ["Nothing..."];
         }
 
         return content.split(":::");

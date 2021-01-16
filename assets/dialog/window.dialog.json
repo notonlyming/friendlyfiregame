@@ -1,8 +1,8 @@
 {
     "entry": [
-        "(The blinds on this window are only half closed.)",
-        "(It is possible to take a look through the window.)",
-        "►Take a look !end @entry !lookThroughWindow",
-        "►Step back !end @entry"
+        "（这扇窗户上的百叶窗只关了一半。）",
+        "（可以透过窗户看。）",
+        "►看一看 !end @entry !lookThroughWindow",
+        "►退后一步 !end @entry"
     ]
 }

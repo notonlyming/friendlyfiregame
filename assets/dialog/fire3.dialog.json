@@ -1,25 +1,25 @@
 
 {
     "entry": [
-        "Whoops… !amused",
-        "Well this is awkward.",
-        "Seriously though… now I'm in serious risk of dying. !sad",
-        "Are you happy now? Is this what you wanted?",
-        "You sacrificed our deep friendship for the brief satisfaction of putting out a fire. !bored",
-        "I'm disappointed.",
-        "But let's not dwell in the past. Will you help me out of this?",
-        "►Yes. @nothing",
-        "►No.",
-        "I see you've learned a lesson here.",
-        "“Keep it alive”, they said, “it will be fun”. And you almost paid the price.",
-        "Good for you the weather shifted. !bored",
-        "Goodbye. Maybe see you in a sequel. !endgameA !end"
+        "哎呀... !amused",
+        "好吧，这很尴尬。",
+        "说真的...现在我有死的危险。 !sad",
+        "你现在高兴吗？这是你想要的吗？",
+        "你牺牲了我们深厚的友谊，只为扑灭一场大火的短暂满足。 !bored",
+        "我很失望。",
+        "但我们不要停留在过去。你能帮我解决这个问题吗？",
+        "►是的！ @nothing",
+        "►不。",
+        "我看你在这里吸取了教训。",
+        "“保持活力”，他们说，“会很有趣的”。你几乎付出了代价。",
+        "天气变了对你有好处。 !bored",
+        "再见。也许在续集里会看到你。 !endgameA !end"
     ],
     "nothing": [
-        "Then you have learned nothing!!! !angry",
-        "Thank you nonetheless, very kind of you.",
-        "We're still coming to an end now. This game can't go on forever.",
-        "You've made it. Good for you.",
-        "Goodbye. !endgameA !end"
+        "那你什么都没学到！！！ !angry",
+        "谢谢你，你真是太好了。",
+        "我们现在还在走向结局。这个游戏不可能永远持续下去。",
+        "你成功了。真为你高兴。",
+        "再见。 !endgameA !end"
     ]
 }

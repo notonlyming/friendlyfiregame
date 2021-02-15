@@ -38,40 +38,40 @@ export class GotItemScene extends Scene<FriendlyFire, Item> {
     private floatSpeed = 4;
 
     private titles = [
-        "Fear of the Dark",
-        "Double-Jump Boots",
-        "Flying Wings Knock-off",
-        "Dancing Dave",
-        "Eternal Friendship"
+        "对黑暗的恐惧",
+        "双跳靴",
+        "翅膀被击败",
+        "跳舞戴夫",
+        "永恒的友谊"
     ];
 
     private subtitles = [
         [
-            "Run and never look back",
-            "An exceptional ally",
-            "There is something in that dark corner"
+            "奔跑，永不回头",
+            "一个杰出的盟友",
+            "黑暗的角落里有东西"
         ],
         [
-            "Not suitable for step dancing",
-            "An all-time classic",
-            "Still in mint condition",
-            "Even work without wearing them",
-            "Why would a tree have those?"
+            "不适合跳踢踏舞",
+            "永恒的经典",
+            "仍处于薄荷状态",
+            "即使不穿也可以上班",
+            "为什么一个树会有这个？"
         ],
         [
-            "Birds love it!",
-            "Feels like cheating",
-            "Free stuff is the best",
-            "M-m-m-multi-jump"
+            "鸟儿很喜欢它！",
+            "感觉像作弊",
+            "免费的东西是最好的",
+            "多.多..多级跳"
         ],
         [
-            "Like tears in the rain"
+            "像雨中的眼泪"
         ],
         [
-            "Dogs are the best!",
-            "What might this be good for?",
-            "Powered by unconditional love",
-            "Nothing can stop us!"
+            "狗是最好的！",
+            "这可能有什么好处？",
+            "由无条件的爱驱动",
+            "没有什么可以阻止我们！"
         ]
     ];
 

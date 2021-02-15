@@ -1,45 +1,45 @@
 {
     "entry": [
-        "…",
-        "Oh, hello mortal. !set $metPowerShiba",
-        "►Hello. Who are you?",
-        "I'm a power-up.",
-        "But I wasn't always one.",
-        "►Were you a dog before by any chance?",
-        "I do not remember my past life and it doesn't really matter either.",
-        "►How does one become a power-up?",
-        "I was taught by my mentor and father figure, the almighty flying power-up.",
-        "After years of meditation, I was able to transcend and leave my mortal shell behind.",
-        "I lost my memories and the ability to move, but it was worth the sacrifice.",
-        "►If you say so… @met"
+        "...",
+        "哦，你好，凡人。 !set $metPowerShiba",
+        "►你好。你是谁？",
+        "我是一个仙人。",
+        "但我并不总是这样。",
+        "►你以前是条狗吗？",
+        "我不记得我过去的生活，这也不重要。",
+        "►一个人如何成为一个仙人？",
+        "我是由我的导师和父亲教的全能的飞行超能力。",
+        "经过多年的冥想，我能够超脱并留下我的凡人外壳。",
+        "我失去了记忆和行动能力，但这是值得的牺牲。",
+        "►如果你这么说... @met"
     ],
     "met": [
-        "What is it you desire?",
-        "►What kind of power do you inherit? @powerup",
-        "►Aren't you interested in your past? @past",
-        "►[$metShiba]Did you know, you have a brother? @brother",
-        "►I'll leave you to yourself.",
-        "Please do. @met !end"
+        "你想要什么？",
+        "►你继承了什么样的能力？ @powerup",
+        "►你对你的过去不感兴趣吗？ @past",
+        "►[$metShiba]你知道吗，你有个弟弟？ @brother",
+        "►我把你留给你自己。",
+        "请这样做。 @met !end"
     ],
     "powerup": [
-        "That I do not know.",
-        "Usually, the designated power is bestowed upon birth.",
-        "Since I transcended being a mortal like you, my power is unknown.",
-        "But it doesn't matter either way.",
-        "I have no intention to be consumed.",
-        "►Not even… by me?",
-        "Yes, not even by a person I met a minute ago.",
-        "I shall contemplate about cloud related topics here for the rest of time.",
-        "►Too bad… @met"
+        "我不知道。",
+        "通常，指定的能力是在出生时授予的。",
+        "因为我超越了你这样的凡人，我的力量是未知的。",
+        "但这两种方式都不重要。",
+        "我不想被吃掉。",
+        "►甚至... 是被我吃掉吗？",
+        "是的，甚至不是被我一分钟前遇到的人吃掉。",
+        "在接下来的时间里，我将在这里思考与云相关的话题。",
+        "►太糟糕了... @met"
     ],
     "past": [
-        "No, the memories of my mortal past are but an ember of the flame I am now.",
-        "This is how I must be. This is everything.",
-        "►If you say so… @met"
+        "不，我对凡人过去的记忆只是我现在的火焰的余烬。",
+        "我必须这样。这就是一切。",
+        "►如果你这样说... @met"
     ],
     "brother": [
-        "I do not remember my past life.",
-        "I also have no desire to involve myself with mortals.",
-        "►That's harsh man… I gotta tell the other dog. @met"
+        "我不记得我过去的生活了。",
+        "我也不想和凡人扯上关系。",
+        "►那太残酷了... 我得告诉另一只狗。 @met"
     ]
 }

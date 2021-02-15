@@ -436,7 +436,7 @@
                         {
                          "name":"content",
                          "type":"string",
-                         "value":"Use \u201cjump\u201d to overcome obstacles.:::The longer you press, the higher the jump."
+                         "value":"使用 \u201c跳\u201d 来越过障碍。:::按的时间越长跳得越高。"
                         }],
                  "rotation":0,
                  "type":"entity",
@@ -454,7 +454,7 @@
                         {
                          "name":"content",
                          "type":"string",
-                         "value":"Walk over items to carry them.:::You cannot interact with doors or other entities when carrying items.:::Press \u201cthrow\u201d to throw your current item."
+                         "value":"走到物品上可以拾取。:::携带物品时不可以和门还有其它实体交互。:::按 \u201c扔\u201d 可以扔掉当前携带的物品。"
                         }],
                  "rotation":0,
                  "type":"entity",
@@ -472,7 +472,7 @@
                         {
                          "name":"content",
                          "type":"string",
-                         "value":"\u2193 A magical journey awaits you beneath the clouds."
+                         "value":"\u2193 在云层底下有一个奇妙的旅程在等你。"
                         }],
                  "rotation":0,
                  "type":"entity",
@@ -490,7 +490,7 @@
                         {
                          "name":"content",
                          "type":"string",
-                         "value":"Be careful!"
+                         "value":"小心！"
                         }],
                  "rotation":0,
                  "type":"entity",
@@ -508,7 +508,7 @@
                         {
                          "name":"content",
                          "type":"string",
-                         "value":"\u2191 Mountain\n\u2190 Temple\n\u2192 Sacred Forest"
+                         "value":"\u2191 山\n\u2190 庙\n\u2192 恐怖的森林"
                         }],
                  "rotation":0,
                  "type":"entity",
@@ -526,7 +526,7 @@
                         {
                          "name":"content",
                          "type":"string",
-                         "value":"Landmark: The Broken Bridge"
+                         "value":"地标：断桥"
                         }],
                  "rotation":0,
                  "type":"entity",
@@ -544,7 +544,7 @@
                         {
                          "name":"content",
                          "type":"string",
-                         "value":"\u2191 Entrance to mountain hiking path.:::Good jumping skills required."
+                         "value":"\u2191 登山道入口:::需要很高的跳跃技能。"
                         }],
                  "rotation":0,
                  "type":"entity",
@@ -562,7 +562,7 @@
                         {
                          "name":"content",
                          "type":"string",
-                         "value":"\u25ca Popular bird feeding spot"
+                         "value":"\u25ca 热门喂鸟点"
                         }],
                  "rotation":0,
                  "type":"entity",
@@ -580,7 +580,7 @@
                         {
                          "name":"content",
                          "type":"string",
-                         "value":"Bouncy mushrooms ahead \u2192"
+                         "value":"前方跳跃蘑菇 \u2192"
                         }],
                  "rotation":0,
                  "type":"entity",
@@ -598,7 +598,7 @@
                         {
                          "name":"content",
                          "type":"string",
-                         "value":"\u2191 Mountain trial"
+                         "value":"\u2191 山间小道"
                         }],
                  "rotation":0,
                  "type":"entity",
@@ -616,7 +616,7 @@
                         {
                          "name":"content",
                          "type":"string",
-                         "value":"You can check the controls in the pause menu at any time."
+                         "value":"可以在任意时间在暂停界面查看键位。"
                         }],
                  "rotation":0,
                  "type":"entity",
@@ -634,7 +634,7 @@
                         {
                          "name":"content",
                          "type":"string",
-                         "value":"\u25ca Popular seed throwing spot"
+                         "value":"\u25ca 热门种子投掷点"
                         }],
                  "rotation":0,
                  "type":"entity",
@@ -652,7 +652,7 @@
                         {
                          "name":"content",
                          "type":"string",
-                         "value":"Hold \u201cdown\u201d to fall through platforms."
+                         "value":"按住 \u201c下\u201d 来穿过和掉落平台。"
                         }],
                  "rotation":0,
                  "type":"entity",
@@ -670,7 +670,7 @@
                         {
                          "name":"content",
                          "type":"string",
-                         "value":"\u25ca Advanced seed throwing spot"
+                         "value":"\u25ca 进阶种子投掷点"
                         }],
                  "rotation":0,
                  "type":"entity",
@@ -2049,7 +2049,7 @@
                         {
                          "name":"content",
                          "type":"string",
-                         "value":"A strange device\u2026:::There is no manual available."
+                         "value":"一个奇怪的设备\u2026:::这里没有使用说明。"
                         }],
                  "rotation":0,
                  "type":"trigger",
@@ -2066,7 +2066,7 @@
                         {
                          "name":"content",
                          "type":"string",
-                         "value":"A little garden. Cute."
+                         "value":"一个小花园。 可爱。"
                         }],
                  "rotation":0,
                  "type":"trigger",
@@ -2083,7 +2083,7 @@
                         {
                          "name":"content",
                          "type":"string",
-                         "value":"A collection of books regarding non euclidean architecture.:::Just thinking about the contents drives me mad."
+                         "value":"关于非欧几里得建筑的书籍。:::一想到里面的内容，我就会发疯。"
                         }, 
                         {
                          "name":"duration",
@@ -2141,7 +2141,7 @@
                         {
                          "name":"content",
                          "type":"string",
-                         "value":"A classic mailbox.:::It's welded shut."
+                         "value":"一个经典邮箱:::它被焊起来了。"
                         }],
                  "rotation":0,
                  "type":"trigger",
@@ -2170,7 +2170,7 @@
                         {
                          "name":"content",
                          "type":"string",
-                         "value":"Just a regular old stereo\u2026:::How disappointing."
+                         "value":"只是个普通的老式音响\u2026:::真令人失望。"
                         }],
                  "rotation":0,
                  "type":"trigger",
@@ -2257,7 +2257,7 @@
                         {
                          "name":"content",
                          "type":"string",
-                         "value":"A small dog house entrance.:::I don't fit since I'm not a dog."
+                         "value":"小型犬屋入口。:::我不合适，因为我不是狗。"
                         }],
                  "rotation":0,
                  "type":"trigger",
@@ -2274,7 +2274,7 @@
                         {
                          "name":"content",
                          "type":"string",
-                         "value":"Some kind of bird nest made out of twigs.:::Pretty normal."
+                         "value":"用树枝做成的某种鸟巢。:::很普通。"
                         }],
                  "rotation":0,
                  "type":"trigger",
@@ -2291,7 +2291,7 @@
                         {
                          "name":"content",
                          "type":"string",
-                         "value":"This a great vantage point.:::I can see a large tree with a birds nest in the distance."
+                         "value":"这是一个制高点。:::我可以看到远处有一棵有鸟筑巢的大树。"
                         }],
                  "rotation":0,
                  "type":"trigger",
@@ -2424,7 +2424,7 @@
                         {
                          "name":"content",
                          "type":"string",
-                         "value":"There is currently no way to save your progress.:::A single run is pretty short so we hope that it isn't too much of a problem.::: Sorry for any resulting inconveniences!"
+                         "value":"当前无法保存您的进度。:::一次运行时间很短，因此我们希望这不是太大的问题。:::造成不便之处，敬请原谅！ "
                         }],
                  "rotation":0,
                  "type":"entity",
@@ -2572,7 +2572,7 @@
                         {
                          "name":"content",
                          "type":"string",
-                         "value":"This door is locked. It says '100'"
+                         "value":"这门锁了。上书 '100'"
                         }, 
                         {
                          "name":"duration",
@@ -2594,7 +2594,7 @@
                         {
                          "name":"content",
                          "type":"string",
-                         "value":"I woke up in this strange capsule"
+                         "value":"我在这个奇怪的胶囊里醒了"
                         }, 
                         {
                          "name":"duration",
@@ -2616,7 +2616,7 @@
                         {
                          "name":"content",
                          "type":"string",
-                         "value":"Some capsules are still closed. I can see a humanoid shape through the glass"
+                         "value":"一些胶囊仍处于关闭状态。 我可以透过玻璃看到人的形状"
                         }, 
                         {
                          "name":"duration",
@@ -2638,7 +2638,7 @@
                         {
                          "name":"content",
                          "type":"string",
-                         "value":"He seems to be dead for quite some time."
+                         "value":"他似乎已经死了一段时间了。"
                         }, 
                         {
                          "name":"duration",
@@ -2660,7 +2660,7 @@
                         {
                          "name":"content",
                          "type":"string",
-                         "value":"The is door is locked as well. It says '200'"
+                         "value":"这门也锁了。上书 '200'"
                         }, 
                         {
                          "name":"duration",
@@ -2694,7 +2694,7 @@
                         {
                          "name":"content",
                          "type":"string",
-                         "value":"The blinds are shut tight."
+                         "value":"百叶窗关得很紧。"
                         }, 
                         {
                          "name":"duration",
@@ -2716,7 +2716,7 @@
                         {
                          "name":"content",
                          "type":"string",
-                         "value":"The blinds are shut tight."
+                         "value":"百叶窗关得很紧。"
                         }, 
                         {
                          "name":"duration",
@@ -2738,7 +2738,7 @@
                         {
                          "name":"content",
                          "type":"string",
-                         "value":"The blinds are shut tight."
+                         "value":"百叶窗关得很紧。"
                         }, 
                         {
                          "name":"duration",

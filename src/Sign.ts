@@ -20,14 +20,14 @@ export class Sign extends NPC {
 
     private prepareContent(content?: string ): string[] {
         if (!content) {
-            return ["The sign is empty."];
+            return ["该指示牌为空"];
         }
 
         return content.split(":::");
     }
 
     public getInteractionText(): string {
-        return "Read sign";
+        return "阅读指示牌";
     }
 
     private generateConversation(lines: string[]): Conversation {

@@ -1,53 +1,53 @@
 {
     "entry": [
-        "Thanks for the wood…",
-        "But weren't you supposed to bring it somewhere else?",
-        "►I just wanted to try this out first. @tryOut",
-        "►I don't trust the other fire. @trust",
-        "►Whoops, you're right. Can I have the wood back? @back"
+        "谢谢你的木头...",
+        "但你不是应该把它带到别的地方吗？",
+        "►我只是想先试试这个。 @tryOut",
+        "►我不相信另一堆火。 @trust",
+        "►哦，你说得对。能把木头还给我吗？ @back"
     ],
     "tryOut": [
-        "Interesting. So no moral motivation? You're just driven by curiosity?",
-        "Well, I take what I can get. At least you didn't just blindly follow the order of a psychotic flame.",
-        "The others weren't so smart. @first"
+        "很有趣。所以没有道德动机？你只是被好奇心驱使？",
+        "好吧，我拿我能得到的。至少你没有盲目地遵循精神病火焰的顺序。",
+        "其他人不那么聪明。 @first"
     ],
     "trust": [
-        "Good call. I did tell you that this thing was nothing but trouble.",
-        "Nice to see that you aren't as dense as the others. @first"
+        "打得好。我告诉过你这件事只不过是麻烦。",
+        "很高兴看到你没有其他人那么密集。 @first"
     ],
     "back": [
-        "No no! Don't you understand?",
-        "You did good. Even if it was just by chance.",
-        "I'll take what I can get. @first"
+        "不，不！你不明白吗？",
+        "你做得很好。即使只是偶然。",
+        "我会拿走我能得到的。 @first"
     ],
     "first": [
-        "You're actually the first one in a couple hundered years to break the cycle. !amused",
-        "I'm proud of you. You can pat yourself on the back. !amused",
-        "I would do so myself, but I don't have any arms in this form.",
-        "►I don't understand anything… @meaning",
-        "►What does this all mean?  @meaning"
+        "你实际上是几百年来第一个打破这种循环的人。 !amused",
+        "我为你骄傲。你可以拍拍自己的背。 !amused",
+        "我自己也会这么做的，但我没有这样的手臂。",
+        "►我什么都不懂... @meaning",
+        "►这一切意味着什么？  @meaning"
     ],
     "meaning": [
-        "That's nothing that you should think too much about.",
-        "Even a glimpse of the truth would instantaniously turn your sanity inside out.",
-        "Let's just say this was all a dream, how about that?",
-        "If you're lucky, you'll even forget that this happened at all.",
-        "►What happens now? @next"
+        "你不应该想太多。",
+        "即使是对真相的一瞥也会瞬间把你的理智彻底颠覆。",
+        "就说这都是梦，怎么样？",
+        "如果你幸运的话，你甚至会忘记这一切。",
+        "►现在发生了什么？ @next"
     ],
     "next": [
-        "Like I said, you can leave. I'll activate the portal here.",
-        "Just go through and you're out of here.",
-        "Don't dilly-dally for too long. I have a lot of paper work waiting for me.",
-        "►Thanks… I guess.",
-        "Yes yes. I have to thank you as well. You spared me a lot of work here. !amused",
-        "The damage the fire would've done to this place, would you have fed the wood to it, is a pain to fix.",
-        "I might even get some long overdue vacation time out of this. !amused",
-        "So, see you around… or not. !activatefireportal !end @idle"
+        "就像我说的，你可以走了。我会在这里启动入口。",
+        "只要过去，你就离开这里。",
+        "不要磨磨蹭蹭太久。我有很多文书工作等着我。",
+        "►谢谢...我想。",
+        "是的，是的。我也得谢谢你。你在这里给了我很多工作。 !amused",
+        "火灾会对这个地方造成的破坏，你会给它添柴吗，这是一个很难修复的问题。",
+        "我甚至可以从中得到一些早该得到的假期。 !amused",
+        "所以，回头见......或者不见。 !activatefireportal !end @idle"
     ],
     "idle": [
-        "Still around?",
-        "There isn't really much you can do here now.",
-        "Just hop in the portal and off you go!",
-        "►O-Okay… !end @idle"
+        "还在吗？",
+        "你现在在这里真的没什么可做的了。",
+        "只要跳进入口就走！",
+        "►好...好的。 !end @idle"
     ]
 }

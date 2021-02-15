@@ -184,9 +184,10 @@ export class CreditsScene extends Scene<FriendlyFire> {
         let y = this.addTitle(credits, 0, x);
 
         y = this.addParagraph(credits, y, x, [
-            "Originally made as a team",
-            "effort for Ludum Dare 46",
-            "in three days by"
+            "最初是为Ludum Dare 46",
+            "团队制作的",
+            "花了三天时间",
+            "初创人员名单："
         ]);
 
         y = this.addParagraph(credits, y, x, [
@@ -197,16 +198,16 @@ export class CreditsScene extends Scene<FriendlyFire> {
             "and Jennifer van Veen"
         ], 50);
 
-        y = this.addCredit(credits, y, x, "GAME DESIGN", ["Everyone"]);
+        y = this.addCredit(credits, y, x, "游戏设计", ["所有人"]);
 
-        y = this.addCredit(credits, y, x, "STORY", [
+        y = this.addCredit(credits, y, x, "故事编写", [
             "Markus Over",
             "Jennifer van Veen",
             "Ranjit Mevius",
             "Nils Kreutzer"
         ]);
 
-        y = this.addCredit(credits, y, x, "PROGRAMMING", [
+        y = this.addCredit(credits, y, x, "编程", [
             "Nico Hülscher",
             "Benjamin Jung",
             "Nils Kreutzer",
@@ -217,14 +218,14 @@ export class CreditsScene extends Scene<FriendlyFire> {
             "Matthias Wetter"
         ]);
 
-        y = this.addCredit(credits, y, x, "SCRIPTING", [
+        y = this.addCredit(credits, y, x, "脚本", [
             "Markus Over",
             "Eduard But"
         ]);
 
-        y = this.addCredit(credits, y, x, "ART DIRECTION", ["Eduard But"]);
+        y = this.addCredit(credits, y, x, "艺术指导", ["Eduard But"]);
 
-        y = this.addCredit(credits, y, x, "2D ART", [
+        y = this.addCredit(credits, y, x, "2D艺术", [
             "Eduard But",
             "Nils Kreutzer",
             "Christina Schneider",
@@ -232,35 +233,35 @@ export class CreditsScene extends Scene<FriendlyFire> {
             "Matthias Wetter"
         ]);
 
-        y = this.addCredit(credits, y, x, "WRITING", [
+        y = this.addCredit(credits, y, x, "写作", [
             "Markus Over",
             "Jennifer van Veen",
             "Eduard But"
         ]);
 
-        y = this.addCredit(credits, y, x, "LEVEL DESIGN", [
+        y = this.addCredit(credits, y, x, "关卡设计", [
             "Eduard But",
             "Nils Kreutzer",
             "Jennifer van Veen"
         ]);
 
-        y = this.addCredit(credits, y, x, "DISTRIBUTION", [
+        y = this.addCredit(credits, y, x, "发布", [
             "Benjamin Jung",
         ]);
 
-        y = this.addCredit(credits, y, x, "MUSIC", [
+        y = this.addCredit(credits, y, x, "音乐", [
             "Bastian Lang",
             "Benjamin Jung",
             "Eduard But",
             "Matthias Wetter"
         ]);
 
-        y = this.addCredit(credits, y, x, "QA", [
+        y = this.addCredit(credits, y, x, "质量保证", [
             "Jennifer van Veen",
             "Matthias Wetter"
         ]);
 
-        y = this.addCredit(credits, y, x, "SFX", ["freesound.org"]);
+        y = this.addCredit(credits, y, x, "特效", ["freesound.org"]);
 
         totalCrawlHeight = y;
 
@@ -291,7 +292,7 @@ export class CreditsScene extends Scene<FriendlyFire> {
     private addTitle(credits: SceneNode, y: number, x: number): number {
         const gap = 5;
         const titleText = "Friendly Fire";
-        const versionText = isDev() ? "DEVELOPMENT VERSION" : `Version ${CreditsScene.appInfo.version}`;
+        const versionText = isDev() ? "开发版本" : `Version ${CreditsScene.appInfo.version}`;
 
         y += new TextNode({
             font: CreditsScene.headlineFont,

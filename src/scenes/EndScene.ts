@@ -37,7 +37,7 @@ export class EndScene extends Scene<FriendlyFire> {
         // Fade in subtitle after a delay
         new TextNode({
             font: EndScene.font,
-            text: ending?.title ?? "Unknown [E]nding",
+            text: ending?.title ?? "[E]未知结局",
             x: this.game.width >> 1,
             y: (this.game.height >> 1) + 11,
             color: "red",
@@ -50,8 +50,8 @@ export class EndScene extends Scene<FriendlyFire> {
         }).appendTo(this.rootNode);
 
         // Inform the user, that it's possible to return to the title
-        const text = `Press any ${this.input.currentControllerFamily === ControllerFamily.KEYBOARD
-            ? "key" : "button"} to continue.`;
+        const text = `按任意 ${this.input.currentControllerFamily === ControllerFamily.KEYBOARD
+            ? "键" : "按钮"} 继续。`;
         new TextNode({
             font: EndScene.font,
             text,

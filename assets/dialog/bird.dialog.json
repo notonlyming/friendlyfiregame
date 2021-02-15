@@ -1,46 +1,46 @@
 {
     "entry": [
-        "♪ Chirp!",
-        "►Who are you? @who",
-        "►What are you up to? @what",
-        "►[relevant]Can you help me in my quest? @quest",
-        "►[not chirp]Did you just say “Chirp”? @chirp",
-        "►You have strange flying technique. @multijump",
-        "►Bye, bird. @bye"
+        "♪ 喳喳！",
+        "►你是谁？ @who",
+        "►你要去哪？ @what",
+        "►[relevant]你能帮我个忙吗？ @quest",
+        "►[not chirp]你只会喳喳地叫吗？ @chirp",
+        "►你有一种奇怪的飞行技能 @multijump",
+        "►再见小鸟。 @bye"
     ],
     "chirp": [
-        "Yes, I did. ♪ Chirp. That's what birds say! !set chirp true @entry"
+        "当然了 ♪ 喳喳 这是每个鸟都会说的。 !set chirp true @entry"
     ],
     "who": [
-        "I'm the bird around these parts. @entry"
+        "我是住这附近的土著鸟。 @entry"
     ],
     "what": [
-        "I do bird stuff, mostly.",
-        "I fly from my nest to some bushes to find food.",
-        "♪ Chirp.",
-        "There isn't any, though. !set relevant true",
-        "My adopted child might go hungry again.",
-        "►You adopted a bird baby?",
-        "No. ♪ Chirp!",
-        "It's something else. But it's still my son.",
-        "You can visit our nest on the tree in the west...",
-        "if you can fly, that is.",
-        "♪ Chirp! @entry"
+        "我大部分时间都在做鸟事。",
+        "我从巢那边飞去灌木丛里找些食物。",
+        "♪ 喳喳",
+        "没有更多了，不过 !set relevant true",
+        "我的养子又要挨饿了。",
+        "►你收养了一个鸟宝宝？",
+        "没 ♪ 喳喳喳！",
+        "是其它东西。 但它仍然是我的儿子。",
+        "你可以拜访我们在西边的巢...",
+        "如果你能飞的话，就那么多。",
+        "♪ 喳喳！ @entry"
     ],
     "quest": [
-        "What quest? I'm a bird!",
-        "Whatever you're up to is not my concern, really.",
-        "♪ Chirp. I'm just doing my daily bird things. @entry"
+        "什么忙？ 我是个鸟！",
+        "你要做什么真的不管我的事。",
+        "♪ 喳喳。我只做鸟该做的事情。 @entry"
     ],
     "multijump": [
-        "I'm not actually flying, though.",
-        "It's the multi-jump power-up that I got a while ago.",
-        "♪ Chirp.",
-        "They said it was a flying ability, but it's not really.",
-        "But I don't care much. At least I don't have to flap my wings anymore. @entry"
+        "我其实并不是在飞。",
+        "这是我不久前得到的多级跳技能。",
+        "♪ 喳喳喳",
+        "它们说这是一种飞行技能，但其实并不是。",
+        "但是我并不关心。至少我不用再扇动我的翅膀了。 @entry"
     ],
     "bye": [
-        "Bye, human.",
-        "♪ Chirp! @entry !end"
+        "再见人类。",
+        "♪ 喳喳喳 @entry !end"
     ]
 }

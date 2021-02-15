@@ -1,33 +1,33 @@
 {
     "entry": [
-        "What?",
-        "[not met]Never seen a glowing chicken before? !set met true",
-        "►[not livingDialog]Are you living here? @living",
-        "►[not touchDialog]What happens when I touch you? @touch",
-        "►So you're not the social type… @social"
+        "啥？",
+        "[not met]从没见过发光的鸡？ !set met true",
+        "►[not livingDialog]你住在这里吗？ @living",
+        "►[not touchDialog]当我碰你的时候会发生什么？ @touch",
+        "►所以你不是那种社交型... @social"
     ],
     "social": [
-        "Exactly. !end @entry"
+        "当然。 !end @entry"
     ],
     "touch": [
-        "Firstly, I'll fill up you health bar by five points. !set touchDialog true",
-        "Secondly, I'm gonna reward you with salmonella.",
-        "So, go right ahead.",
-        "►I'm good, thanks.",
-        "[$ismale] Good boy. @entry !end",
-        "[not $ismale] Clever girl. @entry !end"
+        "首先，我会把你的健康栏加满五分。 !set touchDialog true",
+        "其次，我要奖励你沙门氏菌。",
+        "所以，继续。",
+        "►我很好，谢谢。",
+        "[$ismale] 好男孩。 @entry !end",
+        "[not $ismale] 聪明的女孩。 @entry !end"
     ],
     "living": [
-        "Apparently. Living the life to it's fullest. !set livingDialog true",
-        "I spent enough time just slaving my life away, being burried inside walls…",
-        "…waiting for someone to accidentally free me from my prison.",
-        "Just to be consumed for a cheap health buff.",
-        "Used and forgotten.",
-        "►Woah, that's kinda dark.",
-        "It is. But we power-ups can live in peace here…",
-        "The people tend to lack health bars, so I'm off the wanted list.",
-        "But apparently I seem to be on the “being asked stupid questions” list.",
-        "►I get the hint.",
-        "Good. @entry !end"
+        "显然地。尽情享受生活。 !set livingDialog true",
+        "我花了足够多的时间把我的生命浪费掉，埋在墙里...",
+        "...等着有人不小心把我从监狱里救出来。",
+        "只是为了一个廉价的健康爱好者。",
+        "被使用和遗忘。",
+        "►哇，有点黑。",
+        "是。但我们可以在这里和平生活...",
+        "人们往往缺乏健康条，所以我不在通缉名单上。",
+        "但很明显我好像在“被问愚蠢的问题”名单上",
+        "►我明白了。",
+        "很好。 @entry !end"
     ]
 }

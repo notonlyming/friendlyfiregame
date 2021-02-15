@@ -1,70 +1,70 @@
 {
     "entry": [
-        "Hello humble adventurer, welcome to my sacred hut, yadda yadda. What do you need?",
-        "►What's with that attitude? @attitude",
-        "►I'm just here for some answers. @answers"
+        "你好，卑微的冒险家，欢迎来到我神圣的小屋，雅达雅达。你需要什么？",
+        "►这种态度是怎么回事？ @attitude",
+        "►我只是来这里寻求一些答案。 @answers"
     ],
     "answers": [
-        "Answers? What? Do I look like some kind of prophet to you?",
-        "►The stone from the mountain told me I should come here for answers.",
-        "Ohhh, that guy. I bet he told you to throw him into the river.",
-        "The fact that he floats should tell you everything about him. He's a real airhead.",
-        "►So, no answers? I need to get a seed to grow.",
-        "Not my problem. I'm only here to give away power-ups.",
-        "►Power-ups? I'm interested @powerup"
+        "答案？什么？你觉得我像先知吗？",
+        "►山上的石头告诉我应该来这里寻求答案。",
+        "哦，那个家伙。我打赌他让你把他扔进河里。",
+        "他漂浮的事实应该告诉你关于他的一切。他真是个笨蛋。",
+        "►所以，没有答案？我需要一颗种子来生长。",
+        "不是我的问题。我只是来给你超能力的。",
+        "►超能力？我很感兴趣 @powerup"
     ],
     "attitude": [
-        "I've just had the worst day. Lost my job to some fancy pants high framerate fire jerk and was put here to give away free power-ups.",
-        "►The other fire across the river? @otherfire",
-        "►I don't care. I need answers! @answers",
-        "►You said something about power-ups? @powerup"
+        "我刚经历了最糟糕的一天。我的工作丢给了一个花哨的裤子，高帧率的混蛋，被放在这里免费送超能力。",
+        "►河对岸的另一个火？ @otherfire",
+        "►我不在乎。我需要答案！ @answers",
+        "►你说超能力？ @powerup"
     ],
     "otherfire": [
-        "Yeah, that jiggly eyed bastard!",
-        "►He seemed pretty helpless to me.",
-        "►I still don't care. I need answers! @answers",
-        "►You said something about power-ups? @powerup",
-        "Hah! That's just fantastic! Do whatever you like, just leave me out of it. And don't come back complaining after you get scorched.",
-        "►Whatever. I need answers! @answers",
-        "►OK… You said something about power-ups? @powerup"
+        "是啊，那个眼花缭乱的混蛋！",
+        "►我觉得他很无助。",
+        "►我还是不在乎。我需要答案！ @answers",
+        "►你说超能力？ @powerup",
+        "哈哈！太棒了！你想干什么就干什么，别管我。别在你被烧焦后回来抱怨。",
+        "►无论什么。我需要答案！ @answers",
+        "►好吧...你说了些关于超能力的事？ @powerup"
     ],
     "powerup": [
-        "Yeah, I'm assigned to distribute the flying ability. It's popular amongst school children… and birds.",
-        "►Nice, flying!",
-        "Don't expect too much. It's more of a multi-jump if you ask me. But you know… marketing.",
-        "►I'll take one.",
-        "Sure, here you go. !multijump",
-        "No refunds!",
-        "Also, I'm obligated to tell you, that you should visit the cloud world.",
-        "I personally wouldn't go there. The people there are really annoying.",
-        "But that's just my opinion… @visited !end"
+        "是的，我被指派分配飞行能力。在学校的孩子中很流行... 还有鸟。",
+        "►很好，飞行！",
+        "不要期望太高。如果你问我的话，这更像是一个多重跳跃。但你懂得... 市场营销。",
+        "►我要一个。",
+        "当然，给你。 !multijump",
+        "不退款！",
+        "另外，我有义务告诉你，你应该访问云世界。",
+        "我个人不会去那里。那里的人真烦人。",
+        "但这只是我的意见... @visited !end"
     ],
     "visited": [
-        "Sorry, we have a strict no return policy!",
-        "►[$metcaveman]Did you know there's someone living in the caves? @caveman",
-        "►I just wanted to talk some more. @more",
-        "►Damn…",
-        "Come on man! You didn't even pay anything. @finished !end"
+        "对不起，我们有严格的不退货政策！",
+        "►[$metcaveman]你知道洞穴里有人吗？ @caveman",
+        "►我只是想多谈谈。 @more",
+        "►cao...",
+        "加油，伙计！你什么都没付。 @finished !end"
     ],
     "more": [
-        "I already have a headache, thanks. Can't you just do like a bird… and multi-jump out of here? @finished !end"
+        "我已经头疼了，谢谢。你就不能像只鸟一样...从这里跳出去吗？ @finished !end"
     ],
     "finished": [
-        "Just let me do my job in peace. Go irritate the cloud people. They love that.",
-        "►[$metcaveman] Did you know there's someone living in the caves? @caveman",
-        "►Fine. @finished !end"
+        "让我安静地做我的工作。去激怒云人们吧。他们喜欢这样。",
+        "►[$metcaveman] 你知道洞穴里有人吗？ @caveman",
+        "►好极了。 @finished !end"
     ],
     "caveman": [
-        "Yeah, the best kind of neighbor: Quiet and seclusive.",
-        "►Can't you just give him a free flying power-up?",
-        "No, that's not how this works. He broke the sequence and messed up some triggers.",
-        "That's irreversible, but not my problem.",
-        "►Sequence? Triggers? What does all that mean?",
-        "Whoops, don't mind me. Just giving away power-ups here.",
-        "►But…",
-        "Bye! @nodialog !end"
+        "是啊，最好的邻居：安静而隐居。",
+        "►你就不能给他一个自由的飞行能力吗？",
+        "不，不是这样的。他打破了顺序，弄乱了一些触发器。",
+        "那是不可逆转的，但不是我的问题。",
+        "►顺序？触发器？这是什么意思？",
+        "哎呀，别理我。只是在这里送超能力的。",
+        "►可是...",
+        "拜拜！ @nodialog !end"
     ],
     "nodialog": [
-        "I really don't want to talk to you anymore. !end"
+        "我真的不想再和你说话了。 !end"
     ]
 }

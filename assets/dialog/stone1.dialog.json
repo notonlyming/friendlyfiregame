@@ -1,147 +1,147 @@
 {
     "entry": [
-        "[not met]I am the wise stone. Hard, but fair. !talkedToStone",
-        "[not met]I oversee the sacred garden up that hill. What wisdom do you seek? !set met",
-        "[met]Welcome back young human. What wisdom do you seek?",
-        "►[not $seedplanted]I need to plant a seed. Any tips? @tips",
-        "►[$seedplanted]I planted the seed but nothing happened… @introduction",
-        "►Nevermind. @entry !end"
+        "[not met]我是智慧之石。努力，但公平。 !talkedToStone",
+        "[not met]我监督着那座山上神圣的花园。你寻求什么智慧？ !set met",
+        "[met]欢迎回来，年轻人。你寻求什么智慧？",
+        "►[not $seedplanted]我需要种下一粒种子。有什么建议吗？ @tips",
+        "►[$seedplanted]我播下了种子，但什么也没发生... @introduction",
+        "►没事了。 @entry !end"
     ],
     "tips": [
-        "You can use the sacred garden of course. Just throw the seed directly onto the soil.",
-        "The item will be absorbed by the blessed and fertile ground to help create new life.",
-        "What a miracle!",
-        "►It's just a gardening…",
-        "►Will do.",
-        "Good luck! @entry !end"
+        "你当然可以用神圣的花园。把种子直接扔到地上就行了。",
+        "该物品将被祝福和肥沃的土地吸收，以帮助创造新的生命。",
+        "真是奇迹！",
+        "►只不过是园艺而已...",
+        "►会做的。",
+        "祝你好运！ @entry !end"
     ],
     "visitedentry": [
-        "I see that you still struggle with your task.",
-        "►Yeah, kind of. @introduction"
+        "我看到你还在为你的任务而挣扎。",
+        "►是的，有点。 @introduction"
     ],
     "introduction": [
-        "Well, if you are willing to listen, I would be willing to teach you the ways of the sacred soil.",
-        "►I do not need a teacher. @noteacher",
-        "►Sure, whatever will help me finally get this done. @getthisdone",
-        "►Seriously, can everything talk here? @getthisdone",
-        "►I can do this on my own, thanks. @onmyown"
+        "好吧，如果你愿意听，我愿意教你神圣土地的方法。",
+        "►我不需要老师。 @noteacher",
+        "►当然，无论什么都能帮我最终完成。 @getthisdone",
+        "►说真的，这里什么都能说吗？ @getthisdone",
+        "►我可以自己做，谢谢。 @onmyown"
     ],
     "noteacher": [
-        "Without my teachings your little tree will remain but a sad seed in the sand.",
-        "Return to me when you've grown some wisdom! @visitedentry !end"
+        "没有我的教诲，你的小树将只不过是沙地上一粒悲伤的种子。",
+        "等你有了智慧再来找我！ @visitedentry !end"
     ],
     "ionlymaster": [
-        "Fool! Out of my sight! @visitedentry !end"
+        "傻瓜！离开我的视线！ @visitedentry !end"
     ],
     "getthisdone": [
-        "[$ismale]A bit more respect, young boy. Start by calling me master!",
-        "[not $ismale]A bit more respect, young girl. Start by calling me master!",
-        "►I am the only master I acknowledge! @ionlymaster",
-        "►Fine, what can you teach me… master? @yesmaster",
-        "►Forgive me, master. I am willing to learn. @yesmaster",
-        "►[$ismale]When do you beings stop calling me “boy” for once?!",
-        "►[not $ismale]When do you beings stop calling me “girl” for once?!",
-        "[$ismale]What are you saying, boy?",
-        "[not $ismale]What are you saying, girl?",
-        "►[$ismale]I'm a girl! @genderswap",
-        "►[not $ismale]I'm a woman! @woman",
-        "►[$ismale]I'm a man! @man",
-        "►[not $ismale]I'm a man! @genderswap",
-        "►I'm a human, leave me alone with your gender talk! @human"
+        "[$ismale]再尊重一点，年轻人。先叫我师父！",
+        "[not $ismale]再尊重一点，小姑娘。先叫我师父！",
+        "►我是唯一认识的大师！ @ionlymaster",
+        "►好吧，你能教我什么...大师？ @yesmaster",
+        "►原谅我，大师。我愿意学习。 @yesmaster",
+        "►[$ismale]你什么时候不再叫我“男孩”了？！",
+        "►[not $ismale]你什么时候不再叫我“女孩”了？！",
+        "[$ismale]你在说什么，男孩？",
+        "[not $ismale]你在说什么，女孩？",
+        "►[$ismale]我是个女孩！ @genderswap",
+        "►[not $ismale]我是个女人！ @woman",
+        "►[$ismale]我是个男人！ @man",
+        "►[not $ismale]我是个男人！ @genderswap",
+        "►我是人，别理我，你的性别话题！ @human"
     ],
     "woman": [
-        "Great for you. @getthisdone"
+        "太好了。 @getthisdone"
     ],
     "man": [
-        "Ohohoh. Have you looked in a mirror? You have less facial hair than a stone.",
-        "►You're right, master. @yesmaster",
-        "►Touché! @touche",
-        "►A man is defined by his actions, not by his beard.",
-        "And for now you have neither. But I reckon this may change today.",
-        "►You're right, master. @yesmaster",
-        "►But I have accomplished so much!",
-        "►Are you saying I'll grow a beard today? @beard",
-        "So what, you talked to a fire, bounced off a mushroom and stuck a pine cone into the mud.",
-        "Mediocre!",
-        "But I'll lead you to greatness once you've accepted your current lack thereof.",
-        "►Please do, master. @yesmaster",
-        "►Just get to the point already.",
-        "So impatient. I'll bless you with my teachings once you've demonstrated your willingness to accept them!",
-        "►OK, master, you win. @yesmaster",
-        "►Just tell me!",
-        "Well, let me help you help yourself then…",
-        "►Master master master master!",
-        "See, easy! @yesmaster"
+        "哦哦哦。你照镜子了吗？你的头发比石头还少。",
+        "►你说得对，大师。 @yesmaster",
+        "►触摸！ @touche",
+        "►一个人的定义是他的行为，而不是他的胡须。",
+        "现在你两个都没有。但我想今天可能会有所改变。",
+        "►你说得对，大师。 @yesmaster",
+        "►但我已经完成了这么多！",
+        "►你是说我今天要留胡子？ @beard",
+        "那又怎样，您对着火聊天，从蘑菇弹起，然后将松果插入泥中。",
+        "平庸！",
+        "但一旦你接受了目前的不足，我会带领你走向伟大。",
+        "►请吧，大师。 @yesmaster",
+        "►已经说到重点了。",
+        "太不耐烦了。一旦你表现出愿意接受我的教诲，我就会用我的教诲来祝福你！",
+        "►好的，大师，你赢了。 @yesmaster",
+        "►告诉我！",
+        "好吧，那就让我来帮你吧...",
+        "►大师 大师 大师 大师!",
+        "看，很简单！ @yesmaster"
     ],
     "beard": [
-        "Well that's a miracle for another game. Your fate in this world is a different one, one of carrying and dancing, I presume.",
-        "►OK, master. @yesmaster",
-        "►But I want a beard!",
-        "Are you sure this is what you desire?",
-        "►No, master. But I'm ready for your teachings. @yesmaster",
-        "►Sure!",
-        "Aren't there more important things right now?",
-        "►Yes, master. Let's discuss those instead. @yesmaster",
-        "►No, I really want a beard!",
-        "Well… I guess I could lend you a piece of mine. But please call me master first.",
-        "►Master master master!",
-        "Here you go. !givebeard",
-        "But don't complain! I can only do white ones. This is your life now.",
-        "►Thank you, master. Now back to your teachings. @yesmaster",
-        "►Mphffpfhffhfpf.",
-        "Takes some getting used to. But, where were we… right. @yesmaster"
+        "这是另一个游戏的奇迹。你在这个世界上的命运是不同的，我想是一个搬运和跳舞的命运。",
+        "►好的，大师。 @yesmaster",
+        "►但是我想要胡子！",
+        "你确定这就是你想要的吗？",
+        "►不，大师。但我已经准备好接受你的教导了。 @yesmaster",
+        "►当然！",
+        "现在不是还有更重要的事情吗？",
+        "►是的，大师。让我们来讨论一下。 @yesmaster",
+        "►不，我真的想要胡子！",
+        "好...我想我可以借你一块。但请先叫我师父。",
+        "►大师，大师！",
+        "干得好。 !givebeard",
+        "但不要抱怨！我只能做白色的。这就是你现在的生活。",
+        "►多谢师父。现在回到你的教导。 @yesmaster",
+        "►妈咪妈咪或...",
+        "需要一些时间来适应。但是，我们在哪里...正确的。 @yesmaster"
     ],
     "genderswap": [
-        "Well I guess even my immense wisdom has its limits.",
-        "Maybe you should switch up your appearance next time…",
-        "►All righty. Maybe I'll do that.",
-        "Where were we? Ah yes! @getthisdone"
+        "我想我的智慧也有局限性。",
+        "也许下次你应该换个形象...",
+        "►好吧。也许我会这么做。",
+        "我们在哪儿？啊，是的！ @getthisdone"
     ],
     "touche": [
-        "…",
-        "►…touché, master. @yesmaster"
+        "...",
+        "►...再见，大师。 @yesmaster"
     ],
     "human": [
-        "This… exceeds my expertise. Umm. Where were we. Ah, yes. @yesmaster"
+        "这个...超出了我的专长。嗯。我们刚才说到哪儿了。啊，是的。 @yesmaster"
     ],
     "onmyown": [
-        "Good luck, fool. @visitedentry !end"
+        "祝你好运，傻瓜。 @visitedentry !end"
     ],
     "yesmaster": [
-        "So, let an old and wise stone tell you: Basic gardening requires water. So…",
-        "►Sooo…? @soo",
-        "►I think I need a drink… a hard one. @drink",
-        "►Wait… I want to talk about something else first. @introduction"
+        "所以，让一块古老而睿智的石头告诉你：基本的园艺需要水。所以呢...",
+        "►所以...? @soo",
+        "►我想我需要喝一杯...硬的。 @drink",
+        "►等待...我想先谈点别的。 @introduction"
     ],
     "soo": [
-        "This is harder than I thought. @rain"
+        "这比我想象的要难。 @rain"
     ],
     "drink": [
-        "Me too, although I am hard enough already, hahahahaha. @rain"
+        "我也是，虽然我已经够辛苦了，哈哈哈哈。 @rain"
     ],
     "rain": [
-        "[$ismale]You need some rain of course, you foolish man. Magical rain from the clouds above!",
-        "[not $ismale]You need some rain of course, you foolish woman. Magical rain from the clouds above!",
-        "You need to grow as person to get access to the cloud world. Not literally, but metaphorically.",
-        "Though… literally might also work, but I digress.",
-        "As a part of this trial, you have to bring me down to the river and toss me in. !riverzoom",
-        "I will grant you incredible strength so you are able to carry me down the mountain.",
-        "Beyond the river, you will find the answer to your quest in a sacred cave.",
-        "►I am not sure if I really want to touch you… @nottouchyou",
-        "►[$ismale]By the power of Grayskull! @lift",
-        "►[not $ismale]For the honor of Greyskull! @lift",
-        "►Yes, master. @lift",
-        "►On second thought, I don't like this… at all.",
-        "What a hard disappointment… @visitedentry !end"
+        "[$ismale]你当然需要下雨，你这个笨蛋。神奇的雨从天上来！  ",
+        "[not $ismale]你当然需要下雨，你这个愚蠢的女人。神奇的雨从天上来！",
+        "你需要成长为一个能够进入云世界的人。不是字面意思，而是比喻。",
+        "不过...从字面上说，这也可能奏效，但我离题了。",
+        "作为这次审判的一部分，你必须把我带到河边，把我扔进去。 !riverzoom",
+        "我会给你难以置信的力量，这样你就可以带我下山了。",
+        "在河的另一边，你会在一个神圣的洞穴里找到你追求的答案。",
+        "►我不确定我是否真的想碰你... @nottouchyou",
+        "►[$ismale]靠着灰骷髅的力量！ @lift",
+        "►[not $ismale]为了格雷斯库尔的荣誉！ @lift",
+        "►是的，大师。 @lift",
+        "►仔细想想，我很...不喜欢这样...",
+        "真令人失望... @visitedentry !end"
     ],
     "nottouchyou": [
-        "This is the beauty about power, and now lift me up!",
-        "►I… need… to… lift… my… master… @lift"
+        "这就是力量的美，现在把我举起来！",
+        "►我。。。需要。。。抬起。。。我的。。。大师。。。 @lift"
     ],
     "lift": [
-        "You are wooooorthy! @remember !pickupstone !end"
+        "你值得！ @remember !pickupstone !end"
     ],
     "remember": [
-        "There you are again, my padawan. @remember !end"
+        "你又来了，我的学徒。 @remember !end"
     ]
 }

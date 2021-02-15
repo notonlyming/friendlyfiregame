@@ -1,12 +1,12 @@
 {
     "entry": [
-        "I helped!",
-        "►You sure did, buddy.",
-        "At last, time to play!!!",
-        "►Just a minute! @play !end"
+        "我帮了你！",
+        "►你当然知道，伙计。",
+        "终于，该玩了！！！",
+        "►等一下！ @play !end"
     ],
     "play": [
-        "Play with friend???",
-        "►Just a minute! @play !end"
+        "和朋友一起玩？？？",
+        "►等一下！ @play !end"
     ]
 }

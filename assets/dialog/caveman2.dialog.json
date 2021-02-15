@@ -1,106 +1,106 @@
 {
     "entry": [
-        "Holy macaroni, another human! !set $metcaveman",
-        "[$ismale] I thought I'd never see another dude anytime soon.",
-        "[not $ismale] I thought I'd never see a woman ever again.",
-        "Did you stone-skip-jump your way across the river as well?",
-        "►[$hasDoubleJump]No, I come here regulary. @regulary",
-        "►[$hasDoubleJump]What's a stone-skip-jump? @skipjump",
-        "►[not $hasDoubleJump]Yes! @stuck"
+        "通心粉，另一个人！ !set $metcaveman",
+        "[$ismale] 我以为我永远不会再见到另一个家伙了。",
+        "[not $ismale] 我以为我再也见不到女人了。",
+        "您是否也跳过河道跳过石头？",
+        "►[$hasDoubleJump]不，我通过正常方式来这里的。 @regulary",
+        "►[$hasDoubleJump]什么是打水漂？ @skipjump",
+        "►[not $hasDoubleJump]是的！ @stuck"
     ],
     "stuck": [
-        "Well, then make yourself comfortable.",
-        "At least I'm not stuck here alone anymore.",
-        "►What? Can't we just exit the cave?",
-        "The platforms on the way up are too high…",
-        "►F…",
-        "Game over, man!",
-        "GAME OVER! !endgameC !end"
+        "好吧，那就让自己舒服些。",
+        "至少我不再一个人呆在这里了。",
+        "►什么？ 我们不能退出洞穴吗？",
+        "通往上面的平台太高了...",
+        "►cao...",
+        "游戏结束了，伙计！",
+        "游戏结束！ !endgameC !end"
     ],
     "visitedEntry": [
-        "[$ismale]Hey pal!",
-        "[not $ismale]Greetings my lady.",
-        "►Can I ask you some questions? @questions",
-        "►I'm on my way. @visitedEntry !end"
+        "[$ismale]嗨，朋友！",
+        "[not $ismale]问候我的女士。",
+        "►我能问你一些问题吗？ @questions",
+        "►我有事情要做。 @visitedEntry !end"
     ],
     "regulary": [
-        "So there is a regular way to cross the river? !set visited",
-        "►Yeah, it's a long story.",
-        "I couldn't cross the broken bridge after falling down from the sky.",
-        "I tried many times but I couldn't jump far enough.",
-        "Since there wasn't anything better to do, I found out about the skip-jump by accident and ended up on this side of the river. @skipjump"
+        "那么有常规的渡河方法吗？ !set visited",
+        "►是的，这是一个漫长的故事。",
+        "从天上掉下来后，我无法越过那座断桥。",
+        "我尝试了很多次，但跳得不够远。",
+        "由于没有更好的事情可做，所以我偶然发现了打水漂，并最终到达了河的这一侧。 @skipjump"
     ],
     "skipjump": [
-        "It's a secret jumping technique I mastered. !set visited",
-        "Just at the moment of impact, I was able to jump on the water and cross the river this way!",
-        "Just like a stone skips on water when you throw it at the right angle. Hence the name.",
-        "Patent pending.",
-        "And now I'm stuck here… @bug"
+        "我掌握了这是一种秘密的跳跃技巧。 !set visited",
+        "就在碰到的那一刻，我能够在水上跳，以这种方式越过河道！",
+        "就像当您以正确的角度扔石头时，石头会在水上跳跃一样。 由此得名。",
+        "专利申请中。",
+        "现在我被困在这里... @bug"
     ],
     "bug": [
-        "The fire up top wasn't very helpful.",
-        "And after I entered the cave, I couldn't get back out.",
-        "The platforms are to high for me to jump up.",
-        "►The power-up fire? He gave me the ability to fly. @powerup",
-        "►Keep going. @strange"
+        "上面的火苗不是很有帮助。",
+        "当我进入山洞后，我就出不去了。",
+        "这些平台对我来说很高。",
+        "►上面的火苗？ 它给了我飞行的能力。 @powerup",
+        "►继续。 @strange"
     ],
     "powerup": [
-        "Oh really? You can actually fly now?",
-        "He was just repeating lines and blabbing about broken sequences.",
-        "Maybe you can go talk to him?",
-        "►If I have the time. Continue.",
-        "Where was I? Ah! @strange"
+        "真的吗？ 你现在真的可以飞吗？",
+        "他只是在重复台词，喋喋不休地说些不连贯的话。",
+        "也许你可以去和他谈谈？",
+        "►如果我有时间的话。继续。",
+        "我刚才在哪？啊！ @strange"
     ],
     "strange": [
-        "But that's not all.",
-        "There is something very strange going on here.",
-        "►What do you mean?",
-        "Don't you see it? The strange shrine in the clouds and the very supspicious fire people?",
-        "How did we get here in the first place?",
-        "It's like a feverish nightmare from which you can't wake up.",
-        "I conducted some experiments down here and the results are alarming. @questions"
+        "但这还不是全部。",
+        "这里发生了一件很奇怪的事。",
+        "►什么意思？",
+        "你没看见吗？云中奇异的神龛和非常神奇的火人？",
+        "我们一开始是怎么来的？",
+        "就像不安的噩梦，你无法醒来。",
+        "我在这里做了一些实验，结果令人震惊。 @questions"
     ],
     "questions": [
-        "What do you want to know about?",
-        "►How did you get here? @memories",
-        "►Anything interesting about this cave? @cave",
-        "►Why the open fire in the cave? @fire",
-        "►Nevermind. @visitedEntry !end"
+        "你想知道什么？",
+        "►你怎么来的？ @memories",
+        "►这个洞穴有什么有趣的地方吗？ @cave",
+        "►为什么山洞里有明火？ @fire",
+        "►没事了。 @visitedEntry !end"
     ],
     "fire": [
-        "Good question! First of all, carbon monoxide poisoning is not something that happens here.",
-        "Death in general seems to be impossible. Trust me, I tried.",
-        "But the fire itself is very interesting.",
-        "I made a lot of camp fires since I came here and they all look alike.",
-        "I mean, practically identical. And not only that, they even resemble the fire in the entrance.",
-        "Isn't that strange? It's like someone got really lazy and just made everything from the same template.",
-        "►You're right, but the fire in the beginning looked different.",
-        "Yeah, I remember. It looked fake.",
-        "►I have other questions. @questions"
+        "好问题！首先，一氧化碳中毒在这里是不会发生的。",
+        "总的来说，死亡似乎是不可能的。相信我，我试过了。",
+        "但是火本身很有趣。",
+        "自从我来这里以来，我生了很多营火，它们看起来都很像。",
+        "我是说，几乎一模一样。不仅如此，它们甚至像入口的火。",
+        "这不奇怪吗？就像有人很懒，只是用同一个模板做了所有的东西。",
+        "►你说得对，但一开始的火看起来不一样。",
+        "是的，我记得。看上去是假的。",
+        "►我还有其他问题。 @questions"
     ],
     "cave": [
-        "Yes! This cave is strange as well.",
-        "It's the only cave I've seen so far that has nothing of interest in it.",
-        "Very suspicious if you ask me.",
-        "►Well, you are here.",
-        "I don't like the tone of that…",
-        "I'm a living person and not some kind of pawn that only exists to chat with anyone who enters this cave.",
-        "As soon as I have the means to leave, I will.",
-        "►We will see. I have other questions. @questions"
+        "对！这个洞穴也很奇怪。",
+        "这是我到目前为止看到的唯一一个对它毫无兴趣的洞穴。",
+        "如果你问我的话，我很怀疑。",
+        "►嗯，你来了。",
+        "我不喜欢那种语气...",
+        "我是一个活生生的人，不是那种只存在于和任何进入这个洞穴的人聊天的棋子。",
+        "一旦我有办法离开，我会的。",
+        "►我们拭目以待。我还有其他问题。 @questions"
     ],
     "memories": [
-        "My memories are very hazy, I can't remember anything from before my arrival here.",
-        "What about you?",
-        "►No, it's all blank.",
-        "Thought so… There's something sinister going on here behind the curtains.",
-        "There's always a lingering feeling of being watched from the shadows.",
-        "►Yeah, I met that guy under the bridge. @shadows",
-        "►Creepy. I got other questions. @questions"
+        "我的记忆很模糊，在我到达这里之前我什么都记不起来了。",
+        "那你呢？",
+        "►不，都是空白的。",
+        "我想是的......幕后一定有什么邪恶的东西在指挥着这一切。",
+        "总有一种被影子注视的挥之不去的感觉。",
+        "►是的，我在桥下遇到了那个家伙。 @shadows",
+        "►令人毛骨悚然。我还有其他问题。 @questions"
     ],
     "shadows": [
-        "What guy?",
-        "►The shadow person. He taught me how to run.",
-        "You seem to have had a very different experience than I did…",
-        "►Apparently. I got other questions. @questions"
+        "什么人？",
+        "►影子人。他教我怎么跑。",
+        "你的经历似乎和我大不相同...",
+        "►很显然。我还有其他问题。 @questions"
     ]
 }

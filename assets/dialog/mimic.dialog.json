@@ -1,62 +1,62 @@
 {
     "entry": [
-        "…",
-        "…zZzZZ…",
-        "(Someone seems to be asleep in there.)",
-        "►I better force the chest open. @wakeup !wakeupchest !end",
-        "►I better leave the chest alone. @entry !end"
+        "...",
+        "...zZzZZ...",
+        "（里面好像有人睡着了。）",
+        "►我最好用力打开箱子。 @wakeup !wakeupchest !end",
+        "►我最好别碰箱子。 @entry !end"
     ],
     "wakeup": [
-        "Oh my, was I asleep?",
-        "What time is it?",
-        "►I have not the slightest idea…",
-        "Well, no worries. @who"
+        "哦，天哪，我睡着了吗？",
+        "几点了？",
+        "►我一点也不知道...",
+        "好吧，不用担心。 @who"
     ],
     "who": [
-        "I haven't seen you before. Are you an item?",
-        "►No, just a regular human.",
-        "Ahh, one of those. @questions"
+        "我以前没见过你。你是物品吗？",
+        "►不，只是普通人。",
+        "啊，其中一个。 @questions"
     ],
     "main": [
-        "Hello friend! @questions"
+        "你好，朋友！ @questions"
     ],
     "questions": [
-        "►What are you? @what",
-        "►[not asked_about_items]Do you have any items? @items",
-        "►[not asked_aboud_sleeping]I thought someone was sleeping in there. @sleeping",
-        "►I'm off.",
-        "Bye! @main !end"
+        "►你是干什么的？ @what",
+        "►[not asked_about_items]有什么东西吗？ @items",
+        "►[not asked_aboud_sleeping]我以为有人在里面睡觉。 @sleeping",
+        "►我走了。",
+        "拜！ @main !end"
     ],
     "what": [
-        "A mimic chest.",
-        "But a basic one, I can't even move properly.",
-        "It looks really silly when I jump to move forward, so I don't do it when people are around.",
-        "►How did you get here then?",
-        "Delivery services! @questions"
+        "一个伪装的大箱子。",
+        "但是一个基本的，我甚至不能正常移动。",
+        "当我向前跳的时候看起来真的很傻，所以我不会在有人在的时候做。",
+        "►那你是怎么来的？",
+        "送货服务！ @questions"
     ],
     "items": [
-        "No, we mimics usually don't carry items. !set asked_about_items true",
-        "Some do, but that only incentivizes unnecessary violence.",
-        "There's no need to attack a mimic who doesn't hold items, no?",
-        "►True",
-        "Yes, yes. @questions"
+        "不，我们伪装通常不携带物品。 !set asked_about_items true",
+        "有些人这样做，但这只会引起不必要的暴力。",
+        "没有必要攻击一个不持有物品的伪装者，不是吗？",
+        "►对的",
+        "对对。 @questions"
     ],
     "sleeping": [
-        "Oh, a common mistake! !set asked_aboud_sleeping true",
-        "The people I eat usually don't have the capacity to make sleep noises anymore.",
-        "But that was a long time ago. I'm living the vegan lifestyle now.",
-        "I moved here when I heard how peaceful it was. @sleeping_questions"
+        "哦，一个常见的错误！ !set asked_aboud_sleeping true",
+        "我吃的人通常没有能力再发出睡眠噪音。",
+        "但那是很久以前的事了。我现在过着纯素的生活。",
+        "当我听说这里很平静时，我搬到了这里。 @sleeping_questions"
     ],
     "sleeping_questions": [
-        "►What do you eat then? @eat",
-        "►Lucky me… @lucky"
+        "►那你吃什么？ @eat",
+        "►我真幸运... @lucky"
     ],
     "eat": [
-        "Vegetables, rice, and tofu.",
-        "Or whatever is prepared when I'm around. I can't really cook for myself. @sleeping_questions"
+        "蔬菜、米饭和豆腐。",
+        "或者我在的时候准备的任何东西。我真的不能自己做饭。 @sleeping_questions"
     ],
     "lucky": [
-        "Indeed!",
-        "If you had met me when I was still working as a trap for adventurers, you would be crushed and dismembered by now. @questions"
+        "的确！",
+        "如果你在我还在为冒险家设陷阱的时候遇到我，你现在一定会被压碎和肢解。 @questions"
     ]
 }

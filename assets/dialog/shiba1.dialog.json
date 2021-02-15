@@ -1,77 +1,77 @@
 {
     "entry": [
-        "Hello! Friend!",
-        "You smell nice.",
-        "Are you here to play???",
-        "►A talking dog, I'm not surprised.",
-        "Yes. Talking!",
-        "Mother taught me to speak.",
-        "♪ Bark!",
-        "I mean… ♪ Chirp. @met"
+        "你好！朋友！",
+        "你闻起来很香。",
+        "你是来玩的吗？？？",
+        "►一只会说话的狗，我并不惊讶。",
+        "对。说话！",
+        "妈妈教我说话。",
+        "♪ 汪！",
+        "e，我是想说... ♪ 喳喳喳。 @met"
     ],
     "met": [
-        "Play???",
-        "►[not inTree]Why are you in a tree? @tree",
-        "►[inTree]Can you tell me about your brother again? @reminder",
-        "►We'll play another time.",
-        "►(Pet the dog already!) !petDoggo !end @met",
-        "♪ OK friend. !end @met"
+        "玩？？？",
+        "►[not inTree]你为什么在树上？ @tree",
+        "►[inTree]你能再告诉我一次你哥哥的事吗？ @reminder",
+        "►我们下次再玩。",
+        "►（已经抚摸狗了！） !petDoggo !end @met",
+        "♪ 好的，朋友。 !end @met"
     ],
     "met2": [
-        "Did you find my brother?",
-        "Also… Play???",
-        "►[$metPowerShiba]I found your brother… @found",
-        "►[inTree]Can you tell me about your brother again? @reminder",
-        "►We'll play another time.",
-        "►(Pet the dog already!) !petDoggo !end @met2",
-        "♪ OK friend. !end @met2"
+        "你找到我哥哥了吗？",
+        "或者...玩？？？",
+        "►[$metPowerShiba]我找到你哥哥了... @found",
+        "►[inTree]你能再告诉我一次你哥哥的事吗？ @reminder",
+        "►我们下次再玩。",
+        "►（已经抚摸狗了！） !petDoggo !end @met2",
+        "♪ 好的，朋友。 !end @met2"
     ],
     "tree": [
-        "I fell from the sky. !set inTree",
-        "Bird mother brought me here, gave me food.",
-        "Brother is still missing… We separated.",
-        "►There is another dog?",
-        "Yes, in the clouds. I fell.",
-        "Can you find brother? You can fly! !set $metShiba",
-        "►[not $metPowerShiba]Sure, I can take a look. @search",
-        "►[$metPowerShiba]I already found him. @found"
+        "我从天上掉下来。 !set inTree",
+        "鸟妈妈把我带到这里，给我食物。",
+        "哥哥仍然失踪... 我们分开了。",
+        "►还有一条狗吗？",
+        "是的，在云中。我掉下来了。",
+        "你能找到哥哥吗？你能飞！ !set $metShiba",
+        "►[not $metPowerShiba]当然，我可以看看。 @search",
+        "►[$metPowerShiba]我已经找到他了。 @found"
     ],
     "reminder": [
-        "Yes! Brother!",
-        "I fell from the sky, my brother stayed.",
-        "I howl every night, but no response.",
-        "Please find brother!",
-        "►I'll see what I can find in the clouds. @met2"
+        "对！哥哥！",
+        "我从天上掉下来，我哥哥留在上面了。",
+        "我每晚嚎叫，但没有回应。",
+        "快去找哥哥！",
+        "►我看看能在云中找到什么。 @met2"
     ],
     "search": [
-        "Wow! Thanks!",
-        "I want to smell brother!",
-        "►I'll see what I can find in the clouds. @met2 !end"
+        "哇！谢谢！",
+        "我要闻哥哥的味道！",
+        "►我看看能在云中找到什么。 @met2 !end"
     ],
     "found": [
-        "Wow! Really? !set $gotBoneQuest",
-        "How does he smell?",
-        "►Really nice… That's not the issue though.",
-        "Did you bring him? Where is he?",
-        "►He doesn't remember you…",
-        "What??? Oh no… why?",
-        "►It's complicated. Any ideas how to make him remember?",
-        "Mmmh…",
-        "Yes… the bone! ♪",
-        "We had a bone… when we were with human.",
-        "In a cave, when we came to the clouds.",
-        "It's the favorite bone. He must remember the bone!",
-        "Can you bring favorite bone?",
-        "►The bone in the portal room… I remember that.",
-        "Can you bring???",
-        "►This might be tricky. The throw power-up seemed to know a lot about items.",
-        "Please bring… @boneReminder !end"
+        "哇！真的？ !set $gotBoneQuest",
+        "他闻起来怎么样？",
+        "►闻起来很好... 但这不是问题所在。",
+        "你带他来了吗？他在哪？",
+        "►他不记得你了...",
+        "什么？？？哦不...为什么？",
+        "►这很复杂。有什么办法让他记住吗？",
+        "Mmmh...",
+        "对... 骨头！ ♪",
+        "我们有一根骨头...当我们和人类在一起的时候。",
+        "在一个我们刚来到云端的山洞里。",
+        "这是我最喜欢的骨头。他一定记得那块骨头！",
+        "你能带上我最喜欢的骨头吗？",
+        "►在传送门里的骨头...我记得。    ",
+        "你能带来吗？？？",
+        "►这可能很棘手。投掷仙人似乎对物品了解很多。",
+        "请带它来... @boneReminder !end"
     ],
     "boneReminder": [
-        "Hello friend!",
-        "Can you bring favorite bone?",
-        "it's in the cloud cave. You can fly!",
-        "►Can't get items through doors… Gotta talk to the throw power-up @boneReminder !end",
-        "►(Pet the dog already!) !petDoggo !end @boneReminder"
+        "你好朋友！",
+        "可以把最爱的骨头带来吗？",
+        "它就在云里的洞穴里，你能飞！",
+        "►无法通过门获取物品...我得和投球手谈谈 @boneReminder !end",
+        "►（已经抚摸狗了！）!petDoggo !end @boneReminder"
     ]
 }

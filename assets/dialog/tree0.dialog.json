@@ -1,13 +1,13 @@
 {
     "entry": [
-        "You are the dancing tree,\nOld and rough. !amused",
-        "One hundred and seventeen,\ndancing tree. !amused",
-        "►Hello?",
-        "Feel the beat from the tree topsee, oh yeah! !amused",
-        "►He seems preoccupied with singing. @visited !end"
+        "你是跳舞的树，\n又老又粗糙。 !amused",
+        "一百一十七，\n跳舞的树。 !amused",
+        "►你好？",
+        "感受树上的节奏，哦耶！ !amused",
+        "►他似乎全神贯注于唱歌。 @visited !end"
     ],
     "visited": [
-        "La la la…",
-        "►Maybe I should talk to the fire first… @visited !end"
+        "啦啦啦啦...",
+        "►也许我应该先和火谈谈... @visited !end"
     ]
 }

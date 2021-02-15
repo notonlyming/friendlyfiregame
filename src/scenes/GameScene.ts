@@ -187,27 +187,27 @@ export class GameScene extends Scene<FriendlyFire> {
     public static wrong: Sound;
 
     private petEndingTexts: PetEndingText[] = [
-        { label: "The sensation lacks any kind of comparison.", enter: 0.1 },
-        { label: "All worldly matters seem so insignificant now.", enter: 0.2 },
-        { label: "Reality around me begins to fade.", enter: 0.3 },
-        { label: "Soon, I will be swept away in ecstasy.", enter: 0.5 },
-        { label: "Can I muster up the strength to break free?", enter: 0.6 },
-        { label: "If I don't stop now, there will be no going back.", enter: 0.7 },
-        { label: "Is this really how it all ends?", enter: 0.8 },
-        { label: "I regret nothing…", enter: 0.9 },
-        { label: "Farewell, cruel world…", enter: 1 }
+        { label: "这种感觉缺乏任何形式的比较。", enter: 0.1 },
+        { label: "所有世俗事物似乎现在都微不足道。", enter: 0.2 },
+        { label: "我周围的现实开始消退。", enter: 0.3 },
+        { label: "我将很快被狂喜所笼罩。", enter: 0.5 },
+        { label: "我可以鼓起力量挣脱吗？", enter: 0.6 },
+        { label: "如果我现在不停下来，就没有回头路了。", enter: 0.7 },
+        { label: "这到底是怎么结束的？", enter: 0.8 },
+        { label: "我一点儿都不后悔...", enter: 0.9 },
+        { label: "永别了，残酷的世界......", enter: 1 }
     ];
 
     private windowEndingTexts: PetEndingText[] = [
-        { label: "I wiped off the heavy dust layer on the glass.", enter: 0.1 },
-        { label: "The surface was as cold as the corpses around me.", enter: 0.2 },
-        { label: "It was hard to make out anything in the darkness on the other side…", enter: 0.3 },
+        { label: "我拭去玻璃上厚厚的灰尘。", enter: 0.1 },
+        { label: "玻璃表面像我周围的尸体一样冷。", enter: 0.2 },
+        { label: "很难在黑暗中分辨出任何东西......", enter: 0.3 },
         { label: "", enter: 0.4 },
-        { label: "My legs gave away when I realized what I was looking at.", enter: 0.5 },
-        { label: "Nothing can compare to the dread I felt in this moment.", enter: 0.6 },
+        { label: "当我意识到自己在看什么时，我的双腿就松了。", enter: 0.5 },
+        { label: "没有什么可以比得上我这一刻的恐惧。", enter: 0.6 },
         { label: "", enter: 0.7 },
-        { label: "I wished I could go back to the dream I faintly remember.", enter: 0.8 },
-        { label: "But there was nothing but an inevitable death waiting for me…", enter: 0.9 },
+        { label: "我希望我能回到我还稍微记得一点的梦。", enter: 0.8 },
+        { label: "但是，无可避免的死亡等待着我......", enter: 0.9 },
     ];
 
     /* Total game time (time passed while game not paused) */
@@ -849,7 +849,7 @@ export class GameScene extends Scene<FriendlyFire> {
         const playerTargetPos = this.pointsOfInterest.find(poi => poi.name === "friendship_player_position");
 
         if (!playerTargetPos) {
-            throw new Error ("cannot initiate friendship ending because some points of interest are missing");
+            throw new Error ("无法启动友谊结局，因为缺少某些兴趣点");
         }
 
         this.player.startAutoMove(playerTargetPos.x, true);
@@ -890,10 +890,10 @@ export class GameScene extends Scene<FriendlyFire> {
             this.camera.setBounds(this.player.getCurrentMapBounds());
 
             // Some helpful thoughts
-            setTimeout(() => this.player.think("This is not over…", 2000), 9000);
-            setTimeout(() => this.player.think("There's still something I can do.", 4000), 12000);
+            setTimeout(() => this.player.think("这还没完...", 2000), 9000);
+            setTimeout(() => this.player.think("还有一些事情是我可以做的。", 4000), 12000);
         } else {
-            throw new Error("Cannot begin apocalypse because boss_spawn or bosscloud trigger is missing in map.");
+            throw new Error("由于地图中缺少boss_spawn或bosscloud触发器，因此无法开始启示。");
         }
     }
 

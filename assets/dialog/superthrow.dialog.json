@@ -1,95 +1,95 @@
 {
     "entry": [
-        "Hey! No touching!",
-        "►Woah, sorry. @sorry",
-        "►But aren't you collectible? @collectible"
+        "嘿！不许碰！",
+        "►哇，对不起。 @sorry",
+        "►但你不是收集的吗？ @collectible"
     ],
     "sorry": [
-        "No hard feelings.",
-        "Just keep your hands where I can see them. @greetings",
-        "►Sure don't worry… @greetings"
+        "不生气。",
+        "把手放在我能看见的地方。 @greetings",
+        "►当然，别担心... @greetings"
     ],
     "collectible": [
-        "I am, that's why you shouldn't just go around touching me!",
-        "You really don't want to own a power-up that hates you!",
-        "►I guess… @greetings"
+        "我是，所以你不应该到处碰我！",
+        "你真的不想拥有一个讨厌你的超能力！",
+        "►我猜... @greetings"
     ],
     "hey": [
-        "Hey there! @greetings"
+        "嘿，那里！ @greetings"
     ],
     "greetings": [
-        "Need anything?",
-        "►Who are you? @who",
-        "►What are you up to? @what",
-        "►[not talkedAboutSeed]I have this seed problem… @seed",
-        "►[talkedAboutSeed]I still have this seed problem… @seed2",
-        "►[$gotBoneQuest]I have this bone problem… @bone",
-        "►I'm off… @bye"
+        "需要什么吗？",
+        "►你是谁？ @who",
+        "►你在忙什么？ @what",
+        "►[not talkedAboutSeed]我有种子问题... @seed",
+        "►[talkedAboutSeed]我还有种子问题... @seed2",
+        "►[$gotBoneQuest]我的有骨头问题... @bone",
+        "►我走了... @bye"
     ],
     "bone": [
-        "A bone problem…?",
-        "►[not gotBoneInfo]Yeah, I need to get a bone through a door",
-        "►[gotBoneInfo]How did the trick work again? @throw",
-        "Oh… that might be tricky.",
-        "As you know, items won't go through doors.",
-        "►Is there really nothing I can do?",
-        "Well… I'll let you in on a little secret.",
-        "Listen closely!",
-        "It's not that items can't go through doors.",
-        "They just don't want to.",
-        "But you can trick them with a precise throw.",
-        "►How would that help? @throw"
+        "骨头问题...?",
+        "►[not gotBoneInfo]是啊，我要把骨头从门里拿出来",
+        "►[gotBoneInfo]这个把戏又是怎么起作用的？ @throw",
+        "哦...这可能很棘手。",
+        "如你所知，物品不会通过门。",
+        "►我真的无能为力吗？",
+        "好...我告诉你一个小秘密。",
+        "仔细听！",
+        "不是物品不能通过门。",
+        "只是物品不愿意。",
+        "但是你可以用精确的投掷来欺骗他们。",
+        "►那会有什么帮助？ @throw"
     ],
     "throw": [
-        "It's really easy.",
-        "You pretend to go through the door without the item.",
-        "Just throw it and enter the door as usual.",
-        "The trick is, that you time the throw in a way, that you can still catch it.",
-        "Going through a door takes some time after all!",
-        "I hope that helps with your bone problem.",
-        "►Awesome, I'll try that. !set gotBoneInfo @greetings"
+        "这真的很简单。",
+        "你假装没带东西进门。",
+        "把它扔出去，像往常一样进门。",
+        "诀窍是，你计算扔出去以后的时间，等它回来以后，你仍然可以抓住它。",
+        "进门毕竟要花些时间！",
+        "我希望这对你的骨头问题有帮助。",
+        "►太棒了，我试试看。 !set gotBoneInfo @greetings"
     ],
     "who": [
-        "I'm the almighty super throw!",
-        "Not that useful, but at least I'm not a dancing power-up.",
-        "I live in the clouds with the rest of the family.",
-        "►Like, literally in the clouds? @clouds",
-        "►Why are you down here? @down",
-        "►Back to topic. @greetings"
+        "我是全能的超级投手！",
+        "没什么用，但至少我不是个跳舞能手。",
+        "我和家里其他人住在云端。",
+        "►就像，在云层里？ @clouds",
+        "►你为什么在这里？ @down",
+        "►回到主题。 @greetings"
     ],
     "clouds": [
-        "Can you live there any other way?",
-        "►Nevermind… @greetings"
+        "你还能住在那里吗？",
+        "►没事了... @greetings"
     ],
     "down": [
-        "I'm excercising my throwing arm…",
-        "Also, Dad has company over. I don't like the smell.",
-        "►I really don't want any details… @greetings"
+        "我在练习我的投掷臂...",
+        "还有，爸爸有客人过来。我不喜欢这味道。",
+        "►我真的不想知道任何细节... @greetings"
     ],
     "what": [
-        "I'm throwing stuff up the mountain to excercise.",
-        "This is practically the best spot to do so in the entire world.",
-        "►Any success?",
-        "No, I ran out of stuff pretty quickly.",
-        "►Too bad… @greetings"
+        "我往山上扔东西锻炼身体。",
+        "这几乎是全世界最好的地方。",
+        "►成功了吗？",
+        "不，我很快就用完了。",
+        "►太糟糕了... @greetings"
     ],
     "seed": [
-        "What kind of problem?",
-        "►I must get the seed up the mountain.",
-        "I see. Items really hate going through doors.",
-        "You're a human right? Humans can throw by default.",
-        "Maybe try throwing the seed up the mountain?",
-        "You won't find a better spot than this.",
-        "►Good call, I'll try that. @greetings !set talkedAboutSeed true"
+        "什么问题？",
+        "►我必须把种子送到山上去。",
+        "我懂了。我真的讨厌进门。",
+        "你是人类？人类默认可以扔东西。",
+        "或许可以试着把种子扔到山上？",
+        "你找不到比这更好的地方了。",
+        "►好主意，我试试看。 @greetings !set talkedAboutSeed true"
     ],
     "seed2": [
-        "Really? Still?",
-        "Like I said, throw the seed up the mountain whenever possible.",
-        "This spot here is a perfect start.",
-        "This trick might come in handy later on as well.",
-        "►Got it. @greetings"
+        "真的吗？还和原来一样？",
+        "就像我说的，尽可能把种子扔到山上。",
+        "这是个完美的开始。",
+        "这个技巧以后也可能派上用场。",
+        "►知道了。 @greetings"
     ],
     "bye": [
-        "See ya! @hey !end"
+        "再见！ @hey !end"
     ]
 }

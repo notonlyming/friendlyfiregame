@@ -1,14 +1,14 @@
 {
     "entry": [
-        "Hello humble adventurer, welcome to my…",
-        "Wait, how did you get past the river? That's not how this works! !angry",
-        "►Whoops, I'll be on my way.",
-        "Yeah, do that please. @visited !end"
+        "你好，卑微的冒险家，欢迎来到我的...",
+        "等等，你怎么过河的？不是这样的！ !angry",
+        "►哎呀，我马上就来。",
+        "是的，请这样做。 @visited !end"
     ],
     "visited": [
-        "No no no no! Don't go breaking all the precious sequences! !angry",
-        "Get back to the other side and do things in the correct order.",
-        "►You might be right",
-        "Hush hush! @visited !end"
+        "不不不！不要去破坏珍贵的顺序！ !angry",
+        "回到另一边，按正确的顺序做事。",
+        "►你可能是对的",
+        "虚虚！ @visited !end"
     ]
 }

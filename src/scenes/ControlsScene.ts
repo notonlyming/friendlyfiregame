@@ -32,13 +32,13 @@ export class ControlsScene extends Scene<FriendlyFire> {
     private static gamepadControls: Aseprite;
 
     private controls: string[] = [
-        "Walk",
-        "Jump",
-        "Interact",
-        "Run",
-        "Throw",
-        "Enter doors",
-        "Pause"
+        "走",
+        "跳",
+        "交互",
+        "跑",
+        "扔",
+        "进门",
+        "暂停"
     ];
 
     private gamepadSelection!: AsepriteNode;
@@ -83,14 +83,14 @@ export class ControlsScene extends Scene<FriendlyFire> {
             })
         ).appendChild(
             new ControlTooltipNode({
-                label: "Toggle Gamepad Button Prompts",
+                label: "切换游戏手柄提示",
                 control: ControllerAnimationTags.ACTION,
                 anchor: Direction.TOP_LEFT,
                 y: ControlsScene.panelImage.height + 2
             })
         ).appendChild(
             new ControlTooltipNode({
-                label: "Back",
+                label: "返回",
                 control: ControllerAnimationTags.BACK,
                 anchor: Direction.TOP_LEFT,
                 y: ControlsScene.panelImage.height + 18
